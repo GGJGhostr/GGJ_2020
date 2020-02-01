@@ -2,9 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using GamepadInput;
 
 public class CharacterMovementB : MonoBehaviour
 {
+
+    //public int playerId = 1;
+    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
+    GamepadState playerState;
+
+
     public float fallMultiplier = 2.2f;
     public float riseMultiplier = 1.5f;
 
@@ -24,6 +31,8 @@ public class CharacterMovementB : MonoBehaviour
     private Vector2 jumpVector;
 
     private bool isGrounded;
+    private bool releasedA;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,10 +43,20 @@ public class CharacterMovementB : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        playerState = GamePad.GetState(player_idx);
 
+        if(!releasedA)
+        {
+            if (!playerState.A)
+            {
+                releasedA = true;
+            }
+
+        }
         ManageVerticalVelocity();
 
-        runVector = CheckMovement(Input.GetAxis("Horizontal"));
+        runVector = CheckMovement(playerState.LeftStickAxis.x);
+        
 
         Run();
         CheckJump();
@@ -59,6 +78,12 @@ public class CharacterMovementB : MonoBehaviour
 
     Vector2 CheckMovement(float mvtX)
     {
+        if (0.5 > mvtX && mvtX > -0.5) //dead zone in the center of the stick
+        {
+            mvtX = 0;
+
+        }
+
 
         if (mvtX > 0)
         {
@@ -124,15 +149,20 @@ public class CharacterMovementB : MonoBehaviour
 
     void CheckJump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (playerState.A)
         {
-            if (isGrounded)
+            if (releasedA)
             {
+                releasedA = false;
+                if (isGrounded)
+                {
 
-                SetInitialAirSpeed(rb.velocity.x);
-                rb.velocity += jumpForce * Vector2.up;
+                    SetInitialAirSpeed(rb.velocity.x);
+                    rb.velocity += jumpForce * Vector2.up;
 
+                }
             }
+            
         }
     }
 
