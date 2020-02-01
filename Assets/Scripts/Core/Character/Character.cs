@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using GamepadInput;
 
-public class Character : MonoBehaviour
+public class Character : MonoBehaviour, IHackable
 {
+    private SpriteRenderer m_spriteRenderer = null;
+
     CharacterController2D m_controller = null;
     float horizontal_move = 0f;
     public float run_speed = 40f;
@@ -18,11 +20,19 @@ public class Character : MonoBehaviour
     private CharacterShooting m_shootingBehavior = null;
     private bool has_shooted = false;
 
+    private Character_Data cData = null;
+
     private void Awake()
     {
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
+
         m_controller = GetComponent<CharacterController2D>();
         m_shootingBehavior = GetComponent <CharacterShooting>();
         gameObject.AddComponent<CharacterScoring>();
+
+        cData = GameDataManager.Instance.CharacterData;
+        m_spriteRenderer.enabled = cData.uVisible;
+        run_speed = cData.uSpeed;
     }
 
     void Update()
@@ -34,6 +44,30 @@ public class Character : MonoBehaviour
         ComputeCharacterInputAction(player_state);
         horizontal_move = player_state.LeftStickAxis.x * run_speed;
     }
+
+    public void ComputeHackFromString(string data, dynamic value)
+    {
+        switch(data)
+        {
+            case "visible":
+                if (value == null)
+                    m_spriteRenderer.enabled = !m_spriteRenderer.enabled;
+                else
+                    m_spriteRenderer.enabled = value;
+
+                cData.uVisible = m_spriteRenderer.enabled;
+                break;
+
+            case "speed":
+                run_speed = value;
+                cData.uSpeed = value;
+                break;
+
+            default:
+                break;
+        }
+    }
+
 
     private void UpdateTimer()
     {

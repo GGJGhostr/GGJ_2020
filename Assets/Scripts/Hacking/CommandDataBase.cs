@@ -11,10 +11,15 @@ public class CommandDataBase : MonoBehaviour
     {
         m_hackableEntityMap = new Dictionary<string, List<KeyValuePair<string, System.Type>>>();
 
-        AddTweakableValueInEntity("bullet", "speed", typeof(float), true);
-        AddTweakableValueInEntity("bullet", "damage", typeof(bool), true);
-        AddTweakableValueInEntity("bullet", "size", typeof(int), true);
+        AddTweakableValueInEntity("player", "visible", typeof(bool), true);
+        AddTweakableValueInEntity("player", "speed", typeof(int), true);
 
+        AddTweakableValueInEntity("wall", "visible", typeof(bool), true);
+
+        AddTweakableValueInEntity("bullet", "visible", typeof(bool), true);
+        AddTweakableValueInEntity("bullet", "speed", typeof(float), true);
+
+        //AddTweakableValueInEntity("gravity", "reverse", typeof(bool), true);
         PrintCommandMap();
     }
 
