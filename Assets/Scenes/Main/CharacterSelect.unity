@@ -129,6 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 160719551}
+  - component: {fileID: 160719552}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -150,6 +151,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &160719552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160719550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8dc02bff562fa44b5f682ebef8458c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &162162730
 GameObject:
   m_ObjectHideFlags: 0
@@ -256,6 +269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: P1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7035548771225157493, guid: f9797073f4765c844a89eb88af7fe214,
+        type: 3}
+      propertyPath: player_idx
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6741659031057019381, guid: f9797073f4765c844a89eb88af7fe214,
         type: 3}
@@ -371,11 +389,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7035548771225157493, guid: f9797073f4765c844a89eb88af7fe214,
-        type: 3}
-      propertyPath: player_idx
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5122002525722785120, guid: f9797073f4765c844a89eb88af7fe214,
         type: 3}
@@ -703,7 +716,8 @@ MonoBehaviour:
   player_idx: 1
   player_idxtwo: 2
   stagename: {fileID: 1399086454}
-  strings: {fileID: 11400000, guid: 7bd085f53b4d2644780c4fbb8435ae7a, type: 2}
+  strings: {fileID: 11400000, guid: f89c6d8134904ca42ba74afff28debf4, type: 2}
+  loadings: {fileID: 160719552}
 --- !u!1001 &7035548770039123162
 PrefabInstance:
   m_ObjectHideFlags: 0
