@@ -340,6 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk: 300
+  baseSpeed: 10
   initialTime: 2
   jump: 200
   gravity: 300
@@ -544,6 +545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walk: 300
+  baseSpeed: 10
   initialTime: 2
   jump: 200
   gravity: 300

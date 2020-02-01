@@ -10,12 +10,13 @@ public class Character :MonoBehaviour
     private Vector2 velocity = new Vector2(0, 0);
 
     [SerializeField]private float walk = 50.0f;
+    [SerializeField] private float baseSpeed = 10f;
     [SerializeField] private float initialTime = 2.0f;
     private float deleteTime = 0;
 
     [SerializeField] private float jump = 50.0f;
     [SerializeField] private float gravity = 100.0f;
-    private bool jumpTruth = false;
+    private bool jumpTruth = true;
 
     private Rigidbody2D rigidbody2d;
 
@@ -65,13 +66,17 @@ public class Character :MonoBehaviour
         else if (player_state.LeftStickAxis != Vector2.zero)
         {
             var puls = (player_state.LeftStickAxis.x < 0) ? -1 : 1;
-            velocity = new Vector3(Mathf.Lerp(0, walk * puls, deleteTime / initialTime), velocity.y, 0);
+            velocity = new Vector3(Mathf.Lerp(baseSpeed*puls, walk * puls, deleteTime / initialTime), velocity.y, 0);
             if (initialTime > deleteTime) deleteTime += Time.deltaTime;
             var vector = velocity * Time.deltaTime;
             Move(vector);
             return;
         }
-        if(deleteTime!=0)deleteTime = 0;
+        if (deleteTime != 0)
+        {
+            deleteTime = 0;
+            velocity.x = 0;
+        }
     }
 
     private void FocusOnInput()
@@ -81,7 +86,7 @@ public class Character :MonoBehaviour
 
     void Update()
     {
-        FocusOnInput();
+        //FocusOnInput();
         UpdatePlayerStates();
     }
 }
