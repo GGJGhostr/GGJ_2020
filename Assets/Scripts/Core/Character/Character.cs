@@ -49,7 +49,7 @@ public class Character : MonoBehaviour
     {
         is_jumping = player_state.A;
 
-        if (player_state.B && !has_shooted)
+        if (player_state.RightTrigger > 0f && !has_shooted)
         {
             has_shooted = true;
             m_timerNeedUpdate = true;

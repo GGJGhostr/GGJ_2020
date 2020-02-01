@@ -270,6 +270,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5618293137646069940, guid: 7f01f9ef331f06c44a22eb2b49a7d18b,
+        type: 3}
+      propertyPath: m_MovementSmoothing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618293137646069940, guid: 7f01f9ef331f06c44a22eb2b49a7d18b,
+        type: 3}
+      propertyPath: m_JumpForce
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f01f9ef331f06c44a22eb2b49a7d18b, type: 3}
 --- !u!1 &1082582665
@@ -283,7 +293,7 @@ GameObject:
   - component: {fileID: 1082582667}
   - component: {fileID: 1082582666}
   - component: {fileID: 1082582668}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +450,7 @@ GameObject:
   - component: {fileID: 1482870857}
   - component: {fileID: 1482870856}
   - component: {fileID: 1482870858}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Placeholder_Ground_Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
