@@ -16,7 +16,7 @@ public class ScoringManager : MonoBehaviour
     {
         DontDestroyOnLoad(gameObject);
         m_gameManager = Ghostr.GameManager.Instance;
-        ScoreToWin = 1;
+        ScoreToWin = 10;
     }
 
     public void CheckScore(CharacterScoring scoringCharacter)

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour, IHackable
 {
+    private SpriteRenderer m_spriteRenderer = null;
+
     [SerializeField] float m_projectileSpeed = 50f;
     [SerializeField] float m_projectileSize = 1f;
     [SerializeField] float m_timer = 10f;
@@ -18,10 +20,29 @@ public class Bullet : MonoBehaviour, IHackable
     private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void ComputeHackFromString(string data, dynamic value)
     {
+
+        switch(data)
+        {
+            case "invisible":
+                if (value == null)
+                    m_spriteRenderer.enabled = !m_spriteRenderer.enabled;
+                else
+                    m_spriteRenderer.enabled = value;
+                break;
+
+            case "speed":
+                m_projectileSpeed = value;
+                Fire(m_dir, m_owner);
+                break;
+
+            default:
+                break;
+        }
 
     }
 
@@ -49,7 +70,7 @@ public class Bullet : MonoBehaviour, IHackable
     {
         if(collision.collider.gameObject != m_owner.gameObject)
         {
-            if(collision.gameObject.tag == "Player")
+            if(collision.gameObject.tag == "player")
             {
                 CharacterScoring scoring = m_owner.GetComponent<CharacterScoring>();
                 scoring.incrementScore();
