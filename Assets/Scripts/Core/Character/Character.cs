@@ -71,6 +71,7 @@ public class Character :MonoBehaviour
         if (player_state.A && groundingDecision.Ground)//jump
         {
             velocity = new Vector3(velocity.x, velocity.y + jump);
+            child.SetActive(false);
             groundingDecision.Ground = false;
             return;
         }
