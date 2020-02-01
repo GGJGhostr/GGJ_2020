@@ -578,6 +578,11 @@ PrefabInstance:
       propertyPath: moveJumping
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8759216491940164081, guid: 73fc8a3de517deb48910c6cac7a21a67,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73fc8a3de517deb48910c6cac7a21a67, type: 3}
 --- !u!1 &1082582665
@@ -707,6 +712,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1424679602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8759216491940164093, guid: 73fc8a3de517deb48910c6cac7a21a67,
+    type: 3}
+  m_PrefabInstance: {fileID: 887818780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1424679603
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424679602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.16, y: 0.16}
+  m_Direction: 0
 --- !u!1 &1482870854
 GameObject:
   m_ObjectHideFlags: 0
