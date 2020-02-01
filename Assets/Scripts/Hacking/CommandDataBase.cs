@@ -11,9 +11,9 @@ public class CommandDataBase : MonoBehaviour
     {
         m_hackableEntityMap = new Dictionary<string, List<KeyValuePair<string, System.Type>>>();
 
-        AddTweakableValueInEntity("bullets", "speed", typeof(bool), true);
-        AddTweakableValueInEntity("bullets", "damage", typeof(float), true);
-        AddTweakableValueInEntity("bullets", "size", typeof(Vector2), true);
+        AddTweakableValueInEntity("bullets", "speed", typeof(float), true);
+        AddTweakableValueInEntity("bullets", "damage", typeof(bool), true);
+        AddTweakableValueInEntity("bullets", "size", typeof(int), true);
 
         PrintCommandMap();
     }
@@ -106,5 +106,21 @@ public class CommandDataBase : MonoBehaviour
             }
         }
         Debug.Log("End of printing Command Map ...");
+    }
+
+    public System.Type ConvertHackableNameToType(string name)
+    {
+        System.Type to_return = null;
+        switch (name)
+        {
+            case "bullets":
+                to_return = typeof(PLACEHOLDER.Bullets);
+                break;
+
+            default:
+                break;
+        }
+
+        return to_return;
     }
 }

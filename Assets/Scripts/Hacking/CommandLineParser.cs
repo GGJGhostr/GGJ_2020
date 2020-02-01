@@ -7,14 +7,17 @@ using UnityEngine;
 public class CommandLineParser : MonoBehaviour
 {
     private const int MAX_COMMAND_MEMORY_BATCH_SIZE = 20;
-    private readonly char[] COMMAND_SEPARATORS = {' ', '.'};
+    private readonly char[] COMMAND_SEPARATORS = {' '/*, '.'*/};
     private ArrayList m_parsedCommands = null;
 
     private CommandDataBase m_commandDataBase = null;
+    private CommandLineInterpreter m_commandLineInterpreter = null;
 
     private void Awake()
     {
         m_commandDataBase = GetComponent<CommandDataBase>();
+        m_commandLineInterpreter = GetComponent<CommandLineInterpreter>();
+
         m_parsedCommands = new ArrayList(MAX_COMMAND_MEMORY_BATCH_SIZE);
     }
 
@@ -28,15 +31,18 @@ public class CommandLineParser : MonoBehaviour
             return;
         }
 
-        dynamic arg = ParseCommandParameter(args);
-        if(arg == null)
+        KeyValuePair<string, System.Type>? pair = ParseCommandParameter(args);
+        if(pair == null)
         {
             Debug.Log(command + " is invalid");
             return;
         }
+        
+        m_commandLineInterpreter.InterpretCommand(args, pair.Value);
+        
     }
 
-    private object ParseCommandParameter(string[] command)
+    private KeyValuePair<string, System.Type>? ParseCommandParameter(string[] command)
     {
         KeyValuePair<string, System.Type>? pair = m_commandDataBase.GetTweakableValuePair(command[0], command[1]);
         if(pair == null)
@@ -45,19 +51,7 @@ public class CommandLineParser : MonoBehaviour
             return null;
         }
 
-        TypeConverter converter = TypeDescriptor.GetConverter(pair.Value.Value);
-
-        try
-        {
-            return converter.ConvertFromString(command[2]);
-        }
-        catch
-        {
-            return null;
-        }
-
-        //return ImageConversion
-        //return pair.Value.Value;
+        return pair;
     }
 
     private bool IsAnExistingCommand(string[] command_args)
