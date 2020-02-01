@@ -5,6 +5,7 @@ public class SceneTransitioner : MonoBehaviour
 {
     public void Transition(string sceneName)
     {
-        SceneManager.LoadSceneAsync(sceneName);
+        Ghostr.GameManager.Instance.StartGame();
+        //SceneManager.LoadSceneAsync(sceneName);
     }
 }
