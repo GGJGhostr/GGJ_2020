@@ -26,10 +26,7 @@ public class GameDataManager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         instance = this;
-    }
 
-    void Start()
-    {
         CreateDatas();
     }
 

@@ -25,7 +25,7 @@ public class CharacterMovementB : MonoBehaviour
     public float airSpeed;
     private float currentAirSpeed;
 
-    private bool facingRight = true;
+    public bool facingRight = true;
 
     public float jumpForce;
     private Vector2 jumpVector;

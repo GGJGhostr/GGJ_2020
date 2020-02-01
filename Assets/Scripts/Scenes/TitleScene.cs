@@ -10,13 +10,7 @@ public class TitleScene : MonoBehaviour
     public GamePad.PlayerIndex player_idxtwo = GamePad.PlayerIndex.Two;
     [SerializeField] private Loadings loadings;
     private bool loadingStart=false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         GamepadState player_state = GamePad.GetState(player_idx);

@@ -16,7 +16,6 @@ namespace Ghostr
         public void ChangeScene(string scene_name)
         {
             SceneManager.LoadScene(scene_name);
-            // Change Scene;
         }
     }
 

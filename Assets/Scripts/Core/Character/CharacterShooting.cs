@@ -8,11 +8,11 @@ public class CharacterShooting : MonoBehaviour
     [SerializeField] Transform m_backBulletSpawner = null;
     [SerializeField] GameObject m_bulletPrefab = null;
 
-    CharacterController2D m_characterController = null;
+    CharacterMovementB  m_characterMovement = null;
 
     private void Awake()
     {
-        m_characterController = GetComponent<CharacterController2D>();
+        m_characterMovement = GetComponent<CharacterMovementB>();
     }
 
     public void ShootBullet(Vector2 dir)
@@ -20,7 +20,7 @@ public class CharacterShooting : MonoBehaviour
         Vector3 spawner_pos = m_frontBulletSpawner.position;
 
 
-        bool is_facing_right = m_characterController.m_FacingRight;
+        bool is_facing_right = m_characterMovement.facingRight;
         if(is_facing_right)
         {
             if (dir.x < 0f)

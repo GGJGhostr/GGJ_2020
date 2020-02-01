@@ -6,12 +6,11 @@ using GamepadInput;
 public class Character : MonoBehaviour, IHackable
 {
     private SpriteRenderer m_spriteRenderer = null;
+    private CharacterScoring m_scoring = null;
 
-    CharacterController2D m_controller = null;
     float horizontal_move = 0f;
     public float run_speed = 40f;
     private bool is_jumping = false;
-    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
 
     private bool m_timerNeedUpdate = false;
     private float m_shootTimer = 1f;
@@ -20,16 +19,20 @@ public class Character : MonoBehaviour, IHackable
     private CharacterShooting m_shootingBehavior = null;
     private bool has_shooted = false;
 
+    private CharacterMovementB m_movement = null;
     private Character_Data cData = null;
 
     private void Awake()
     {
         m_spriteRenderer = GetComponent<SpriteRenderer>();
 
-        m_controller = GetComponent<CharacterController2D>();
         m_shootingBehavior = GetComponent <CharacterShooting>();
-        gameObject.AddComponent<CharacterScoring>();
+        m_scoring = GetComponent<CharacterScoring>();
+        m_movement = GetComponent<CharacterMovementB>();
+    }
 
+    private void Start()
+    {
         cData = GameDataManager.Instance.CharacterData;
         m_spriteRenderer.enabled = cData.uVisible;
         run_speed = cData.uSpeed;
@@ -40,9 +43,8 @@ public class Character : MonoBehaviour, IHackable
         if (m_timerNeedUpdate)
             UpdateTimer();
 
-        GamepadState player_state = GamePad.GetState(player_idx);
+        GamepadState player_state = GamePad.GetState(m_movement.player_idx);
         ComputeCharacterInputAction(player_state);
-        horizontal_move = player_state.LeftStickAxis.x * run_speed;
     }
 
     public void ComputeHackFromString(string data, dynamic value)
@@ -68,7 +70,6 @@ public class Character : MonoBehaviour, IHackable
         }
     }
 
-
     private void UpdateTimer()
     {
         m_currentTime += Time.deltaTime;
@@ -82,8 +83,6 @@ public class Character : MonoBehaviour, IHackable
 
     private void ComputeCharacterInputAction(GamepadState player_state)
     {
-        is_jumping = player_state.A;
-
         if (player_state.RightTrigger > 0f && !has_shooted)
         {
             has_shooted = true;
@@ -92,9 +91,4 @@ public class Character : MonoBehaviour, IHackable
         }
     }
 
-    private void FixedUpdate()
-    {
-        m_controller.Move(horizontal_move * Time.deltaTime, false, is_jumping);
-        is_jumping = false;
-    }
 }
