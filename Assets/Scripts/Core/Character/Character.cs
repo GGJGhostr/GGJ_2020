@@ -9,6 +9,9 @@ public class Character :MonoBehaviour
 {
     private Vector2 velocity = new Vector2(0, 0);
 
+    [SerializeField] private float m_jumpForce = 10f;
+    [SerializeField] private float m_movementForce = 10f;
+
     [SerializeField]private float walk = 50.0f;
     [SerializeField] private float baseSpeed = 10f;
     [SerializeField] private float initialTime = 2.0f;
@@ -33,7 +36,7 @@ public class Character :MonoBehaviour
     //new type
     public void Move(Vector3 vector)
     {
-        rigidbody2d.MovePosition(this.gameObject.transform.position+vector);
+        rigidbody2d.MovePosition(this.gameObject.transform.position + vector);
     }
 
     //debug
@@ -45,41 +48,68 @@ public class Character :MonoBehaviour
         groundingDecision = this.gameObject.transform.GetChild(0).gameObject.GetComponent<GroundingDecision>();
     }
 
-    private void UpdatePlayerStates()
+    private void ComputePlayerMovement()
     {
-        if (!groundingDecision.Ground)//Avoid moving while jumping
-        {
-            var vector = velocity * Time.deltaTime;
-            Move(vector);
-            if (velocity.y < 0 && !child.activeInHierarchy) child.SetActive(true);
-            if (velocity.y < baseGravity&&terminalGravity)return;
-            velocity = new Vector2(velocity.x, velocity.y - gravity * Time.deltaTime);
-            return;
-        }
-        else if (!child.activeInHierarchy && velocity.y != 0) velocity = Vector2.zero;
+        Vector2 new_velocity = new Vector2();
 
         GamepadState player_state = GamePad.GetState(player_idx);
-        if (player_state.A && groundingDecision.Ground)//jump
+        if(player_state.A)
         {
-            velocity = new Vector3(velocity.x, velocity.y + jump);
-            groundingDecision.Ground = false;
-            return;
+            Vector2 dir = player_state.LeftStickAxis.normalized;
+            if (dir == Vector2.zero)
+                dir = Vector2.up;
+
+            Vector2 jump_dir = dir * m_jumpForce;
+            rigidbody2d.AddForceAtPosition(jump_dir, transform.position);
+            //rigidbody2d.AddForce(jump_dir);
         }
-        else if (player_state.LeftStickAxis != Vector2.zero)
+
+        if (player_state.LeftStickAxis != Vector2.zero)
         {
-            var puls = (player_state.LeftStickAxis.x < 0) ? -1 : 1;
-            velocity = new Vector3(Mathf.Lerp(baseSpeed*puls, walk * puls, deleteTime / initialTime), velocity.y, 0);
-            if (initialTime > deleteTime) deleteTime += Time.deltaTime;
-            var vector = velocity * Time.deltaTime;
-            Move(vector);
-            return;
+            Vector2 dir = player_state.LeftStickAxis.normalized;
+            new_velocity += dir * m_movementForce * Time.deltaTime;
+            Move(new_velocity);
         }
-        if (deleteTime != 0)
-        {
-            deleteTime = 0;
-            velocity.x = 0;
-        }
+
+
     }
+
+    //private void UpdatePlayerStates()
+    //{
+    //    if (!groundingDecision.Ground)//Avoid moving while jumping
+    //    {
+    //        var vector = velocity * Time.deltaTime;
+    //        Move(vector);
+    //        if (velocity.y < 0 && !child.activeInHierarchy) child.SetActive(true);
+    //        if (velocity.y < baseGravity&&terminalGravity)return;
+    //        velocity = new Vector2(velocity.x, velocity.y - gravity * Time.deltaTime);
+    //        return;
+    //    }
+    //    else if (!child.activeInHierarchy && velocity.y != 0) velocity = Vector2.zero;
+
+    //    GamepadState player_state = GamePad.GetState(player_idx);
+    //    if (player_state.A)// && groundingDecision.Ground)//jump
+    //    {
+    //        velocity = new Vector3(velocity.x, velocity.y + jump);
+    //        groundingDecision.Ground = false;
+    //        return;
+    //    }
+    //    else if (player_state.LeftStickAxis != Vector2.zero)
+    //    {
+    //        Debug.Log("boulou");
+    //        var puls = (player_state.LeftStickAxis.x < 0) ? -1 : 1;
+    //        velocity = new Vector3(Mathf.Lerp(baseSpeed*puls, walk * puls, deleteTime / initialTime), velocity.y, 0);
+    //        if (initialTime > deleteTime) deleteTime += Time.deltaTime;
+    //        var vector = velocity * Time.deltaTime;
+    //        Move(vector);
+    //        return;
+    //    }
+    //    if (deleteTime != 0)
+    //    {
+    //        deleteTime = 0;
+    //        velocity.x = 0;
+    //    }
+    //}
 
     private void FocusOnInput()
     {
@@ -89,6 +119,7 @@ public class Character :MonoBehaviour
     void FixedUpdate()
     {
         //FocusOnInput();
-        UpdatePlayerStates();
+        ComputePlayerMovement();
+        //UpdatePlayerStates();
     }
 }
