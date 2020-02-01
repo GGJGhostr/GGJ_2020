@@ -1,0 +1,6487 @@
+fileFormatVersion: 2
+guid: 47492786e44574d02b41ae701a03e85a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8463823446484587692
+    second: placeholder_tileset_64x64_0
+  - first:
+      213: -2888643122715427977
+    second: placeholder_tileset_64x64_1
+  - first:
+      213: 7521465808554718716
+    second: placeholder_tileset_64x64_2
+  - first:
+      213: 5069440401247046213
+    second: placeholder_tileset_64x64_3
+  - first:
+      213: -234790609294325081
+    second: placeholder_tileset_64x64_4
+  - first:
+      213: 1965952860587992942
+    second: placeholder_tileset_64x64_5
+  - first:
+      213: 2140635015079265010
+    second: placeholder_tileset_64x64_6
+  - first:
+      213: 7268778266401984308
+    second: placeholder_tileset_64x64_7
+  - first:
+      213: 6222079331446124323
+    second: placeholder_tileset_64x64_8
+  - first:
+      213: -5352383592707357634
+    second: placeholder_tileset_64x64_9
+  - first:
+      213: 9082771624023034503
+    second: placeholder_tileset_64x64_10
+  - first:
+      213: -5288753982950700590
+    second: placeholder_tileset_64x64_11
+  - first:
+      213: -7808684688521256888
+    second: placeholder_tileset_64x64_12
+  - first:
+      213: -6260019780733102567
+    second: placeholder_tileset_64x64_13
+  - first:
+      213: 8684534581441091344
+    second: placeholder_tileset_64x64_14
+  - first:
+      213: -111050840661174713
+    second: placeholder_tileset_64x64_15
+  - first:
+      213: 2674976165956981510
+    second: placeholder_tileset_64x64_16
+  - first:
+      213: -6231138792922503339
+    second: placeholder_tileset_64x64_17
+  - first:
+      213: -6767997106415129397
+    second: placeholder_tileset_64x64_18
+  - first:
+      213: -6209958960271874728
+    second: placeholder_tileset_64x64_19
+  - first:
+      213: -8950935100935623258
+    second: placeholder_tileset_64x64_20
+  - first:
+      213: 2798726829439167100
+    second: placeholder_tileset_64x64_21
+  - first:
+      213: -4681104494467905596
+    second: placeholder_tileset_64x64_22
+  - first:
+      213: 8740412567393902762
+    second: placeholder_tileset_64x64_23
+  - first:
+      213: 6061484739325151519
+    second: placeholder_tileset_64x64_24
+  - first:
+      213: 79926060106896565
+    second: placeholder_tileset_64x64_25
+  - first:
+      213: -8695812380634911015
+    second: placeholder_tileset_64x64_26
+  - first:
+      213: -3387376172479832000
+    second: placeholder_tileset_64x64_27
+  - first:
+      213: 5994463839535663057
+    second: placeholder_tileset_64x64_28
+  - first:
+      213: -3462703504828600825
+    second: placeholder_tileset_64x64_29
+  - first:
+      213: -8904099910983197609
+    second: placeholder_tileset_64x64_30
+  - first:
+      213: 8252133401682362681
+    second: placeholder_tileset_64x64_31
+  - first:
+      213: 6169505596108671457
+    second: placeholder_tileset_64x64_32
+  - first:
+      213: 5545549784539211449
+    second: placeholder_tileset_64x64_33
+  - first:
+      213: 3397801129140323710
+    second: placeholder_tileset_64x64_34
+  - first:
+      213: -8422005945138349971
+    second: placeholder_tileset_64x64_35
+  - first:
+      213: 8586249174475784439
+    second: placeholder_tileset_64x64_36
+  - first:
+      213: -3399308515105195087
+    second: placeholder_tileset_64x64_37
+  - first:
+      213: 7780000379291372787
+    second: placeholder_tileset_64x64_38
+  - first:
+      213: -4472463353293771649
+    second: placeholder_tileset_64x64_39
+  - first:
+      213: -3629802936123629809
+    second: placeholder_tileset_64x64_40
+  - first:
+      213: 5317520583180537064
+    second: placeholder_tileset_64x64_41
+  - first:
+      213: 956367496045888489
+    second: placeholder_tileset_64x64_42
+  - first:
+      213: 1462521787153847268
+    second: placeholder_tileset_64x64_43
+  - first:
+      213: 7631589671448441424
+    second: placeholder_tileset_64x64_44
+  - first:
+      213: 8999596020711740317
+    second: placeholder_tileset_64x64_45
+  - first:
+      213: 6530323508285698889
+    second: placeholder_tileset_64x64_46
+  - first:
+      213: 3268124018616280535
+    second: placeholder_tileset_64x64_47
+  - first:
+      213: 1110518038392452306
+    second: placeholder_tileset_64x64_48
+  - first:
+      213: -8649608987596199169
+    second: placeholder_tileset_64x64_49
+  - first:
+      213: 4972622241404927590
+    second: placeholder_tileset_64x64_50
+  - first:
+      213: -2286478460147419302
+    second: placeholder_tileset_64x64_51
+  - first:
+      213: -7686050978917220182
+    second: placeholder_tileset_64x64_52
+  - first:
+      213: -6927977203648292242
+    second: placeholder_tileset_64x64_53
+  - first:
+      213: -4741472457903164960
+    second: placeholder_tileset_64x64_54
+  - first:
+      213: -8779486770485797679
+    second: placeholder_tileset_64x64_55
+  - first:
+      213: 5090950468053292972
+    second: placeholder_tileset_64x64_56
+  - first:
+      213: -3748511159618847662
+    second: placeholder_tileset_64x64_57
+  - first:
+      213: 2375315510019310231
+    second: placeholder_tileset_64x64_58
+  - first:
+      213: 4608273009972392832
+    second: placeholder_tileset_64x64_59
+  - first:
+      213: 1147054840836721493
+    second: placeholder_tileset_64x64_60
+  - first:
+      213: -6915125801183244803
+    second: placeholder_tileset_64x64_61
+  - first:
+      213: -471317796456452502
+    second: placeholder_tileset_64x64_62
+  - first:
+      213: 8441510840961159110
+    second: placeholder_tileset_64x64_63
+  - first:
+      213: 2525915493570336591
+    second: placeholder_tileset_64x64_64
+  - first:
+      213: 3554063337908707786
+    second: placeholder_tileset_64x64_65
+  - first:
+      213: 3791845476681962096
+    second: placeholder_tileset_64x64_66
+  - first:
+      213: 2885140020769423619
+    second: placeholder_tileset_64x64_67
+  - first:
+      213: -7290208487732845707
+    second: placeholder_tileset_64x64_68
+  - first:
+      213: 6117936769164419519
+    second: placeholder_tileset_64x64_69
+  - first:
+      213: 2765784712582754594
+    second: placeholder_tileset_64x64_70
+  - first:
+      213: 4842771826934853612
+    second: placeholder_tileset_64x64_71
+  - first:
+      213: -3020985035694866152
+    second: placeholder_tileset_64x64_72
+  - first:
+      213: 77617480854452248
+    second: placeholder_tileset_64x64_73
+  - first:
+      213: -8231076968051508630
+    second: placeholder_tileset_64x64_74
+  - first:
+      213: 6614599514030847579
+    second: placeholder_tileset_64x64_75
+  - first:
+      213: 2684251891580003263
+    second: placeholder_tileset_64x64_76
+  - first:
+      213: -1491510690138113262
+    second: placeholder_tileset_64x64_77
+  - first:
+      213: -5481161531093820367
+    second: placeholder_tileset_64x64_78
+  - first:
+      213: 5240404223689511897
+    second: placeholder_tileset_64x64_79
+  - first:
+      213: 2071499903478068545
+    second: placeholder_tileset_64x64_80
+  - first:
+      213: -3428740496026911629
+    second: placeholder_tileset_64x64_81
+  - first:
+      213: -1221643783024368451
+    second: placeholder_tileset_64x64_82
+  - first:
+      213: -788249769597252891
+    second: placeholder_tileset_64x64_83
+  - first:
+      213: -7001415116349226522
+    second: placeholder_tileset_64x64_84
+  - first:
+      213: 8274619712061839642
+    second: placeholder_tileset_64x64_85
+  - first:
+      213: -3167267902723865019
+    second: placeholder_tileset_64x64_86
+  - first:
+      213: -5215249320576093415
+    second: placeholder_tileset_64x64_87
+  - first:
+      213: -2144178798116849730
+    second: placeholder_tileset_64x64_88
+  - first:
+      213: 666080105752412774
+    second: placeholder_tileset_64x64_89
+  - first:
+      213: 1137542338784114614
+    second: placeholder_tileset_64x64_90
+  - first:
+      213: 1320414878922641544
+    second: placeholder_tileset_64x64_91
+  - first:
+      213: -8587243325728400249
+    second: placeholder_tileset_64x64_92
+  - first:
+      213: -1634267486525696261
+    second: placeholder_tileset_64x64_93
+  - first:
+      213: 4728480527513607840
+    second: placeholder_tileset_64x64_94
+  - first:
+      213: -5597344204248638545
+    second: placeholder_tileset_64x64_95
+  - first:
+      213: -2948052576112324131
+    second: placeholder_tileset_64x64_96
+  - first:
+      213: -9051193578619127484
+    second: placeholder_tileset_64x64_97
+  - first:
+      213: -2236250100290449198
+    second: placeholder_tileset_64x64_98
+  - first:
+      213: -1211108503467830544
+    second: placeholder_tileset_64x64_99
+  - first:
+      213: 4219065552152356292
+    second: placeholder_tileset_64x64_100
+  - first:
+      213: -9066626201853604655
+    second: placeholder_tileset_64x64_101
+  - first:
+      213: 6748719543702741592
+    second: placeholder_tileset_64x64_102
+  - first:
+      213: 8629200076697488710
+    second: placeholder_tileset_64x64_103
+  - first:
+      213: -1710690983340867156
+    second: placeholder_tileset_64x64_104
+  - first:
+      213: 2970047680667533149
+    second: placeholder_tileset_64x64_105
+  - first:
+      213: 7151645399371016763
+    second: placeholder_tileset_64x64_106
+  - first:
+      213: 2199802477645876757
+    second: placeholder_tileset_64x64_107
+  - first:
+      213: 1426549999280663900
+    second: placeholder_tileset_64x64_108
+  - first:
+      213: -5994925980658813436
+    second: placeholder_tileset_64x64_109
+  - first:
+      213: 959403219274835135
+    second: placeholder_tileset_64x64_110
+  - first:
+      213: -8855707971179494089
+    second: placeholder_tileset_64x64_111
+  - first:
+      213: 1016572955373035605
+    second: placeholder_tileset_64x64_112
+  - first:
+      213: -5898889028772890790
+    second: placeholder_tileset_64x64_113
+  - first:
+      213: 9070613837197103525
+    second: placeholder_tileset_64x64_114
+  - first:
+      213: -1988645090910201077
+    second: placeholder_tileset_64x64_115
+  - first:
+      213: -9142361338562884767
+    second: placeholder_tileset_64x64_116
+  - first:
+      213: 8188472105472472907
+    second: placeholder_tileset_64x64_117
+  - first:
+      213: -5895542582246229151
+    second: placeholder_tileset_64x64_118
+  - first:
+      213: 6105616367138229773
+    second: placeholder_tileset_64x64_119
+  - first:
+      213: -5249582646106207336
+    second: placeholder_tileset_64x64_120
+  - first:
+      213: -8675237829646659584
+    second: placeholder_tileset_64x64_121
+  - first:
+      213: 8299586113093299944
+    second: placeholder_tileset_64x64_122
+  - first:
+      213: 5779756009756918556
+    second: placeholder_tileset_64x64_123
+  - first:
+      213: 9193939153811020104
+    second: placeholder_tileset_64x64_124
+  - first:
+      213: -4828159369149943910
+    second: placeholder_tileset_64x64_125
+  - first:
+      213: -3802540118964418184
+    second: placeholder_tileset_64x64_126
+  - first:
+      213: 8891293437629831884
+    second: placeholder_tileset_64x64_127
+  - first:
+      213: 2760708936538829703
+    second: placeholder_tileset_64x64_128
+  - first:
+      213: 2944355959581041875
+    second: placeholder_tileset_64x64_129
+  - first:
+      213: -8434885237482795298
+    second: placeholder_tileset_64x64_130
+  - first:
+      213: -5887647063360239672
+    second: placeholder_tileset_64x64_131
+  - first:
+      213: 9057097403448493120
+    second: placeholder_tileset_64x64_132
+  - first:
+      213: -3650469691663407481
+    second: placeholder_tileset_64x64_133
+  - first:
+      213: 4539439427917606622
+    second: placeholder_tileset_64x64_134
+  - first:
+      213: -912089229179956134
+    second: placeholder_tileset_64x64_135
+  - first:
+      213: 7645013647683275876
+    second: placeholder_tileset_64x64_136
+  - first:
+      213: 9147060484121728398
+    second: placeholder_tileset_64x64_137
+  - first:
+      213: 7477028256113318055
+    second: placeholder_tileset_64x64_138
+  - first:
+      213: -5527388042836130101
+    second: placeholder_tileset_64x64_139
+  - first:
+      213: -8919994568326457513
+    second: placeholder_tileset_64x64_140
+  - first:
+      213: -5726452964855738912
+    second: placeholder_tileset_64x64_141
+  - first:
+      213: -1977790582201261943
+    second: placeholder_tileset_64x64_142
+  - first:
+      213: 6413266050589769243
+    second: placeholder_tileset_64x64_143
+  - first:
+      213: -8228521227051417380
+    second: placeholder_tileset_64x64_144
+  - first:
+      213: 4101138532069401177
+    second: placeholder_tileset_64x64_145
+  - first:
+      213: -7360314315880209179
+    second: placeholder_tileset_64x64_146
+  - first:
+      213: -4353016276717589851
+    second: placeholder_tileset_64x64_147
+  - first:
+      213: -3987090521690409344
+    second: placeholder_tileset_64x64_148
+  - first:
+      213: 9104378442349020268
+    second: placeholder_tileset_64x64_149
+  - first:
+      213: 700878647129749028
+    second: placeholder_tileset_64x64_150
+  - first:
+      213: 3399086869657029086
+    second: placeholder_tileset_64x64_151
+  - first:
+      213: -8723473380084545549
+    second: placeholder_tileset_64x64_152
+  - first:
+      213: -6624126027917094538
+    second: placeholder_tileset_64x64_153
+  - first:
+      213: 8671001133616087084
+    second: placeholder_tileset_64x64_154
+  - first:
+      213: 6735954208779549777
+    second: placeholder_tileset_64x64_155
+  - first:
+      213: -5112902593363212225
+    second: placeholder_tileset_64x64_156
+  - first:
+      213: -7734810733806382929
+    second: placeholder_tileset_64x64_157
+  - first:
+      213: 188739962298385940
+    second: placeholder_tileset_64x64_158
+  - first:
+      213: -2404252096829745096
+    second: placeholder_tileset_64x64_159
+  - first:
+      213: -7990425856182617859
+    second: placeholder_tileset_64x64_160
+  - first:
+      213: 8782576814621507573
+    second: placeholder_tileset_64x64_161
+  - first:
+      213: 8271105409661424977
+    second: placeholder_tileset_64x64_162
+  - first:
+      213: -4999103144258398746
+    second: placeholder_tileset_64x64_163
+  - first:
+      213: -1584832400764851507
+    second: placeholder_tileset_64x64_164
+  - first:
+      213: -7402783808406084009
+    second: placeholder_tileset_64x64_165
+  - first:
+      213: -7268988587513772876
+    second: placeholder_tileset_64x64_166
+  - first:
+      213: 3289262605247904509
+    second: placeholder_tileset_64x64_167
+  - first:
+      213: -8134577881371390744
+    second: placeholder_tileset_64x64_168
+  - first:
+      213: 686830990244261206
+    second: placeholder_tileset_64x64_169
+  - first:
+      213: -8164276813042360559
+    second: placeholder_tileset_64x64_170
+  - first:
+      213: 4535018744438025918
+    second: placeholder_tileset_64x64_171
+  - first:
+      213: -6743410550258859631
+    second: placeholder_tileset_64x64_172
+  - first:
+      213: 7888812089055967852
+    second: placeholder_tileset_64x64_173
+  - first:
+      213: -7016448677833555430
+    second: placeholder_tileset_64x64_174
+  - first:
+      213: 285507391504326148
+    second: placeholder_tileset_64x64_175
+  - first:
+      213: 347782763754458859
+    second: placeholder_tileset_64x64_176
+  - first:
+      213: 7473794893943769322
+    second: placeholder_tileset_64x64_177
+  - first:
+      213: -9073203005052372195
+    second: placeholder_tileset_64x64_178
+  - first:
+      213: -3362458882412751186
+    second: placeholder_tileset_64x64_179
+  - first:
+      213: 1792089618157300087
+    second: placeholder_tileset_64x64_180
+  - first:
+      213: -1047152342009079609
+    second: placeholder_tileset_64x64_181
+  - first:
+      213: -7598717522753524889
+    second: placeholder_tileset_64x64_182
+  - first:
+      213: -1854036414823731499
+    second: placeholder_tileset_64x64_183
+  - first:
+      213: 7504793114413673108
+    second: placeholder_tileset_64x64_184
+  - first:
+      213: 2240399414528086564
+    second: placeholder_tileset_64x64_185
+  - first:
+      213: 5065751626691864478
+    second: placeholder_tileset_64x64_186
+  - first:
+      213: 9192249233960335047
+    second: placeholder_tileset_64x64_187
+  - first:
+      213: 7700253029027747780
+    second: placeholder_tileset_64x64_188
+  - first:
+      213: -3104810276610712958
+    second: placeholder_tileset_64x64_189
+  - first:
+      213: 8458414368230237452
+    second: placeholder_tileset_64x64_190
+  - first:
+      213: 2837147029802647799
+    second: placeholder_tileset_64x64_191
+  - first:
+      213: 8531651118741523298
+    second: placeholder_tileset_64x64_192
+  - first:
+      213: -8106433181955767690
+    second: placeholder_tileset_64x64_193
+  - first:
+      213: -2711693823257991513
+    second: placeholder_tileset_64x64_194
+  - first:
+      213: -7848133348197889087
+    second: placeholder_tileset_64x64_195
+  - first:
+      213: -748458756048400228
+    second: placeholder_tileset_64x64_196
+  - first:
+      213: -6362822899384003479
+    second: placeholder_tileset_64x64_197
+  - first:
+      213: 6733860131912619918
+    second: placeholder_tileset_64x64_198
+  - first:
+      213: 8599540578106036920
+    second: placeholder_tileset_64x64_199
+  - first:
+      213: -5602937874630874832
+    second: placeholder_tileset_64x64_200
+  - first:
+      213: -2184922335460294563
+    second: placeholder_tileset_64x64_201
+  - first:
+      213: -2315481941255920377
+    second: placeholder_tileset_64x64_202
+  - first:
+      213: -5399766106464580057
+    second: placeholder_tileset_64x64_203
+  - first:
+      213: 104359749786658874
+    second: placeholder_tileset_64x64_204
+  - first:
+      213: 4453344591887950324
+    second: placeholder_tileset_64x64_205
+  - first:
+      213: 8341007382522141999
+    second: placeholder_tileset_64x64_206
+  - first:
+      213: 2293244107915538375
+    second: placeholder_tileset_64x64_207
+  - first:
+      213: 5813440276933340739
+    second: placeholder_tileset_64x64_208
+  - first:
+      213: 5332358175920719090
+    second: placeholder_tileset_64x64_209
+  - first:
+      213: 3998323823405776521
+    second: placeholder_tileset_64x64_210
+  - first:
+      213: -7191775652273300294
+    second: placeholder_tileset_64x64_211
+  - first:
+      213: 923574566529149122
+    second: placeholder_tileset_64x64_212
+  - first:
+      213: 7901150788903259348
+    second: placeholder_tileset_64x64_213
+  - first:
+      213: 6811836223969396988
+    second: placeholder_tileset_64x64_214
+  - first:
+      213: 8382597761535618158
+    second: placeholder_tileset_64x64_215
+  - first:
+      213: 3563853251837937691
+    second: placeholder_tileset_64x64_216
+  - first:
+      213: 1637487895048586500
+    second: placeholder_tileset_64x64_217
+  - first:
+      213: 3772882995986099040
+    second: placeholder_tileset_64x64_218
+  - first:
+      213: -5643346566732105711
+    second: placeholder_tileset_64x64_219
+  - first:
+      213: 1885304289903242319
+    second: placeholder_tileset_64x64_220
+  - first:
+      213: -2372820937557559175
+    second: placeholder_tileset_64x64_221
+  - first:
+      213: -5234800387976311533
+    second: placeholder_tileset_64x64_222
+  - first:
+      213: 4929207655107235907
+    second: placeholder_tileset_64x64_223
+  - first:
+      213: 3595439770578213673
+    second: placeholder_tileset_64x64_224
+  - first:
+      213: 2172666816888904511
+    second: placeholder_tileset_64x64_225
+  - first:
+      213: 8851362833276487864
+    second: placeholder_tileset_64x64_226
+  - first:
+      213: 4338772784060878527
+    second: placeholder_tileset_64x64_227
+  - first:
+      213: 541223515647502466
+    second: placeholder_tileset_64x64_228
+  - first:
+      213: 2708831172272287580
+    second: placeholder_tileset_64x64_229
+  - first:
+      213: 3603364504242979014
+    second: placeholder_tileset_64x64_230
+  - first:
+      213: 8056469648277733385
+    second: placeholder_tileset_64x64_231
+  - first:
+      213: 3340202859783425503
+    second: placeholder_tileset_64x64_232
+  - first:
+      213: -7695135761920121892
+    second: placeholder_tileset_64x64_233
+  - first:
+      213: -9108843026608816354
+    second: placeholder_tileset_64x64_234
+  - first:
+      213: 3865819711007752199
+    second: placeholder_tileset_64x64_235
+  - first:
+      213: -8910386785883814223
+    second: placeholder_tileset_64x64_236
+  - first:
+      213: 5134942240421518349
+    second: placeholder_tileset_64x64_237
+  - first:
+      213: 2313371984779844293
+    second: placeholder_tileset_64x64_238
+  - first:
+      213: 6328225301951109975
+    second: placeholder_tileset_64x64_239
+  - first:
+      213: 3136765685952804139
+    second: placeholder_tileset_64x64_240
+  - first:
+      213: -23691605664444325
+    second: placeholder_tileset_64x64_241
+  - first:
+      213: 1953977103407282814
+    second: placeholder_tileset_64x64_242
+  - first:
+      213: 7197491072306685496
+    second: placeholder_tileset_64x64_243
+  - first:
+      213: 2707098849811548084
+    second: placeholder_tileset_64x64_244
+  - first:
+      213: -481765118328423433
+    second: placeholder_tileset_64x64_245
+  - first:
+      213: 343904414815788699
+    second: placeholder_tileset_64x64_246
+  - first:
+      213: -5896108929038610013
+    second: placeholder_tileset_64x64_247
+  - first:
+      213: 4484443537356820546
+    second: placeholder_tileset_64x64_248
+  - first:
+      213: 3449029823179397808
+    second: placeholder_tileset_64x64_249
+  - first:
+      213: -2410394765639306970
+    second: placeholder_tileset_64x64_250
+  - first:
+      213: 5827893805031724758
+    second: placeholder_tileset_64x64_251
+  - first:
+      213: 3372694464526037904
+    second: placeholder_tileset_64x64_252
+  - first:
+      213: 2798211251902836524
+    second: placeholder_tileset_64x64_253
+  - first:
+      213: 659380727951279098
+    second: placeholder_tileset_64x64_254
+  - first:
+      213: -5226120133135729148
+    second: placeholder_tileset_64x64_255
+  - first:
+      213: -5834730147923994099
+    second: placeholder_tileset_64x64_256
+  - first:
+      213: -5984229627959208306
+    second: placeholder_tileset_64x64_257
+  - first:
+      213: -1342464664753636104
+    second: placeholder_tileset_64x64_258
+  - first:
+      213: 8220779092705808613
+    second: placeholder_tileset_64x64_259
+  - first:
+      213: 4414028124808435030
+    second: placeholder_tileset_64x64_260
+  - first:
+      213: -4327933394927514533
+    second: placeholder_tileset_64x64_261
+  - first:
+      213: 5851712269116122839
+    second: placeholder_tileset_64x64_262
+  - first:
+      213: 5849064731842855073
+    second: placeholder_tileset_64x64_263
+  - first:
+      213: 1789570542511717632
+    second: placeholder_tileset_64x64_264
+  - first:
+      213: -3613636241401558091
+    second: placeholder_tileset_64x64_265
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c763ceafbe2ff4d5a9fc48be0b8900b3
+      internalID: -8463823446484587692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cca360011ae447ab999ac3d1848bbb9
+      internalID: -2888643122715427977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91e04ef869fe4030ada4657ff885e58
+      internalID: 7521465808554718716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eec7ebd87d0d47049bb5ad5f6237aa8
+      internalID: 5069440401247046213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181b2dbd471c14f8a841a9735f100a8d
+      internalID: -234790609294325081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebce1f6459ae47d5b6437dffe4cd90a
+      internalID: 1965952860587992942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625aab2a346464ab69712f96af29db94
+      internalID: 2140635015079265010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474a3f3f660a448faaa77d1194b31ea6
+      internalID: 7268778266401984308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d1ab17e45e48fbab8a52a27ff8473
+      internalID: 6222079331446124323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4765c149b37814107949bddb4489c4a0
+      internalID: -5352383592707357634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_10
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a12138d14941401f98a0f592c0d4ba7
+      internalID: 9082771624023034503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b176a99fe4ccb437d8b6041e00fd5a06
+      internalID: -5288753982950700590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_12
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d81eecda0f294001949916f405ed6d7
+      internalID: -7808684688521256888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_13
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740907a075bcb4d0da0daf0c6cee8130
+      internalID: -6260019780733102567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_14
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005d2e02798124e41959976bd26960ce
+      internalID: 8684534581441091344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_15
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f758012c4f11a49c99af1ac64b74b8e3
+      internalID: -111050840661174713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_16
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cbcb3b7dc454dabbfe98e675b90185
+      internalID: 2674976165956981510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba693ac1a09554a83a6a6fbc991270f6
+      internalID: -6231138792922503339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_18
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f9eabfc67c427c9ae8807d1998774
+      internalID: -6767997106415129397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_19
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3966c344c0d4814a34eb9243fbd80d
+      internalID: -6209958960271874728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_20
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c808b88fe21b64bc49d4b513a5ea5b67
+      internalID: -8950935100935623258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c59e8325f74c4e78aa582c960ab6266
+      internalID: 2798726829439167100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba5cde81f163488691dc1b193b61923
+      internalID: -4681104494467905596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b436df2f55d4a059ef0dabcc4cb3eb
+      internalID: 8740412567393902762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd854259acae4d5cb6fee526499c81b
+      internalID: 6061484739325151519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c982ad9c786354ff6ba787716a40f70d
+      internalID: 79926060106896565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9f1acbac716406491535255cb0f6bd
+      internalID: -8695812380634911015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e959211cc2af4eb88b087215a3d74a2
+      internalID: -3387376172479832000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d259f7f25384af4b770f828a53c738
+      internalID: 5994463839535663057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_29
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c1b036ad7744972ab344a7925ee0f9
+      internalID: -3462703504828600825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_30
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08446df6633c4d11ba237bc8c6a9794
+      internalID: -8904099910983197609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_31
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81910401349c04d26b5c9a24b4620db1
+      internalID: 8252133401682362681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a7c84dfa61c4bf88f225015249cd9e
+      internalID: 6169505596108671457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_33
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe4f011f6e44d8996dde10ce795657
+      internalID: 5545549784539211449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaabf223263a447899a6f54b0a3fc7d
+      internalID: 3397801129140323710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_35
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5f0b84f9f19406ca7a99e71797f7ce
+      internalID: -8422005945138349971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf04672c425d948e99d1dac35a0536c0
+      internalID: 8586249174475784439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_37
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1416b43b92e704fd1b738d323fd5dced
+      internalID: -3399308515105195087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_38
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace452e5f4baf41969d9519af37e5c5c
+      internalID: 7780000379291372787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_39
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7660ec8094974ef09dd5fff2cbded51
+      internalID: -4472463353293771649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_40
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c754285e76425434cbe59d2b716e2efb
+      internalID: -3629802936123629809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_41
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430b38daca67843c089b4e27d02d13c6
+      internalID: 5317520583180537064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec247dceb15843448ab7ed653249084
+      internalID: 956367496045888489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84df0bc9b3974a1fbd9f55c494300a7
+      internalID: 1462521787153847268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384d2d35d411740caa2fb563e3a6cc40
+      internalID: 7631589671448441424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_45
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607dd199dfa1440382b9aec5b489f63
+      internalID: 8999596020711740317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e5b556beb7b496e8004791ef2d2d0e
+      internalID: 6530323508285698889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f36428bd8c1e4730bf3a2532b7bab14
+      internalID: 3268124018616280535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fde6f609034a098c5afebd6626972
+      internalID: 1110518038392452306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94efdf0ed74ca4377bb70099bbc4e08e
+      internalID: -8649608987596199169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_50
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e77a2d3cb33646058fc508ef1f6803d
+      internalID: 4972622241404927590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_51
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da516725f67a4cbfb99bd6b1276138b
+      internalID: -2286478460147419302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_52
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b6f2754a291496f9dffe9c37ef3c7f
+      internalID: -7686050978917220182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_53
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6b0072a860425a95a31e87bc53103
+      internalID: -6927977203648292242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_54
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2f0ff3e1bf149469848d58c46ae084
+      internalID: -4741472457903164960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb82d8951fe84fffac7ec1984e38187
+      internalID: -8779486770485797679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_56
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd26729c92340cd887f0a7cbf77682
+      internalID: 5090950468053292972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_57
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e265229a532774676aba6eb6c7e15744
+      internalID: -3748511159618847662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_58
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cead339ee33ea49fbb3bb2d0b32adaec
+      internalID: 2375315510019310231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_59
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280b204acf5da4699b8263a918acaa47
+      internalID: 4608273009972392832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_60
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ff130f573544d29fecde42d086c26
+      internalID: 1147054840836721493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_61
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd461f0c5404c49fb902a5a4187af6be
+      internalID: -6915125801183244803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_62
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7ac682fc3649a6ab058da58f7e09c
+      internalID: -471317796456452502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188526e6f43ac4aac8c5b43c985df4d5
+      internalID: 8441510840961159110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5767ed0e845ec4bf887efc65803c1a69
+      internalID: 2525915493570336591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6181de7e6fa3e49c9a2167c1f5729955
+      internalID: 3554063337908707786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3be4d1bb6d342158deb010b4a6d9f6
+      internalID: 3791845476681962096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_67
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf609c2327bf4d188b90e5400ab4902
+      internalID: 2885140020769423619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1319948a42147403488a5ceb469d11b9
+      internalID: -7290208487732845707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_69
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5561ff9ba49fd44baba1a7fcabc76a46
+      internalID: 6117936769164419519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_70
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf75183e900a048dc924cf2c8225ae32
+      internalID: 2765784712582754594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_71
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89900e79aaa1440ebb88bb81aaa25fdb
+      internalID: 4842771826934853612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_72
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505af373027974c4d8781582b696330d
+      internalID: -3020985035694866152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_73
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdeb24ceaa2b41bea8ef279786c5c43
+      internalID: 77617480854452248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402fc411823a3498c8317a54d91d83f2
+      internalID: -8231076968051508630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_75
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1d5e9c0fc144cdfab810463565aca9
+      internalID: 6614599514030847579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_76
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d94daa3e1994858ba1fb33e78a9607
+      internalID: 2684251891580003263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_77
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bb767a9901d49f6837b8896eb80ed2
+      internalID: -1491510690138113262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_78
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcbe6b93302845d0876655136d615fa
+      internalID: -5481161531093820367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_79
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af24b9be1ae3f48feb5fadca1bf0e562
+      internalID: 5240404223689511897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_80
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbbbce7394244baead9cc2192f020d7
+      internalID: 2071499903478068545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_81
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62191ac4f8a64793a1debbf9a04a150
+      internalID: -3428740496026911629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_82
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19c84e20053e4896a849e4d603bfe5a
+      internalID: -1221643783024368451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_83
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a89cde8a394ff7afe3ae745c4af94
+      internalID: -788249769597252891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e54c94fd47e3453dbd639bca522153a
+      internalID: -7001415116349226522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9e68d9500104768b6bd00a04337a7f
+      internalID: 8274619712061839642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e5a20880da44eea6b64334ff7f99f
+      internalID: -3167267902723865019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5296efe84a4b5f914ce3b8c6e2ccc
+      internalID: -5215249320576093415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086ae5efd3f594a14b473e74625c8e5a
+      internalID: -2144178798116849730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e622e8cf7d04d40b5c2b8aa56dc1c3
+      internalID: 666080105752412774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a3639c070b3436cb742190bb56a59b
+      internalID: 1137542338784114614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a549ff8448a984d09ac6648e5945e09d
+      internalID: 1320414878922641544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_92
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc31dc90da6594f299409c9b8ae32519
+      internalID: -8587243325728400249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_93
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccd30bbb52ef41b7bd91e080ed1cc70
+      internalID: -1634267486525696261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_94
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e46dd8b40e48a39ec05da1826b058
+      internalID: 4728480527513607840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_95
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3dfb5417e3947a88c2f5f637ee5697
+      internalID: -5597344204248638545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_96
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8226646ea9a54b1cbd54ea58a561e00
+      internalID: -2948052576112324131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2180ff1d3ee749ecab95ea8c553c59f
+      internalID: -9051193578619127484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_98
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a213edb9d4b4295a21da024473de70
+      internalID: -2236250100290449198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_99
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6e2854976f342d19258a800ef1b41c
+      internalID: -1211108503467830544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_100
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f474b755d1b4a2f967d3105eb74b11
+      internalID: 4219065552152356292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_101
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae77a71ea2a4b5ea0297de3397a175
+      internalID: -9066626201853604655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_102
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5934b9fd2f0f4ce5915a6cc31983ec5
+      internalID: 6748719543702741592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_103
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b840c6dcbf7f4cf9a6dc82bad3525d1
+      internalID: 8629200076697488710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_104
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fe33c611a1a49edbba27d5bd744275
+      internalID: -1710690983340867156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098265f8d5c3f434dbff93eeecef183f
+      internalID: 2970047680667533149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea2db4b7d154a87bc94b5d42ae0324
+      internalID: 7151645399371016763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_107
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870e7c18df43f48aa81275b9d68ecb20
+      internalID: 2199802477645876757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd7c848425d04804a31886ced9a9598
+      internalID: 1426549999280663900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5197f2c7ffac41a1810721dde5677f1
+      internalID: -5994925980658813436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_110
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfc5cdf5e023421f99d219b221c6f72
+      internalID: 959403219274835135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_111
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8dec305a78d498b8441ce6404623cf
+      internalID: -8855707971179494089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_112
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601cbed96e7644b8185193b3543a5c99
+      internalID: 1016572955373035605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_113
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d111cead093455982c21a403873d21
+      internalID: -5898889028772890790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03da8592f4834c459de57a996feedb8
+      internalID: 9070613837197103525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_115
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35c1f116de874f32ad58bcdd9442982
+      internalID: -1988645090910201077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_116
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba66bae5aa5284471a2dbf5899836aaa
+      internalID: -9142361338562884767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b110152e5514c08863b8eef51e919b
+      internalID: 8188472105472472907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028f2f95c6cbc4b75a394358ea37b9ba
+      internalID: -5895542582246229151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fab34be2c51460d8c775130455e269
+      internalID: 6105616367138229773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_120
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47354b37b82c54f0fb703459298fe731
+      internalID: -5249582646106207336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441dafc82e7cc46e5964f4d30641efc2
+      internalID: -8675237829646659584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445e5ec2160f14626980bd3a047a9315
+      internalID: 8299586113093299944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_123
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d2f3780935147a99c105c326cb017c
+      internalID: 5779756009756918556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_124
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a88722d42fa49d0b9443d4e440af43
+      internalID: 9193939153811020104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_125
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7ae204a7d3b47f5b9bff309dd292c3
+      internalID: -4828159369149943910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_126
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8ca8457b69a46cb923a6703ed85b7d
+      internalID: -3802540118964418184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_127
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76da72d8be8f497e877bc7d447ad517
+      internalID: 8891293437629831884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_128
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b9c2cd077184ab5b59d75fd139faea
+      internalID: 2760708936538829703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_129
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72910b9092db04da790bd44f4911dd40
+      internalID: 2944355959581041875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_130
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7527228a957774ea8a251e1fdd5255a0
+      internalID: -8434885237482795298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_131
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f7c0308b9214aae844eb94e17f24c5
+      internalID: -5887647063360239672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_132
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd51b423d9374df3a8747c4b7a61cd5
+      internalID: 9057097403448493120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_133
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57816ddcee3ff49a1b3cd3f726cb7615
+      internalID: -3650469691663407481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_134
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a9834d06eed4065a4aa208e8a9d491
+      internalID: 4539439427917606622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_135
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76de1ac1bffb04ff5b9be54d24a2ba9d
+      internalID: -912089229179956134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_136
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0545cf7477d4ca4b06f4e58fd817f5
+      internalID: 7645013647683275876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_137
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7984869954b49b8941aaa4d8d5afea
+      internalID: 9147060484121728398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_138
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168872a75572c405bbfccbcb4e810904
+      internalID: 7477028256113318055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_139
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e191881092ec941bea7b4cf171e3b237
+      internalID: -5527388042836130101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beb9c6eb55e7465ea7005bd8ce3980d
+      internalID: -8919994568326457513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_141
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f35d2963b5f4445f862ffcfdffd5e85
+      internalID: -5726452964855738912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_142
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0ba54b03aba4258905b1924d8e3a29
+      internalID: -1977790582201261943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_143
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774a4e6bfd64f432f94d44234cc63826
+      internalID: 6413266050589769243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_144
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230184951dcbd489ead5cd4c994bc0d3
+      internalID: -8228521227051417380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_145
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6030ba07737243ba93961c31ac7fbe8
+      internalID: 4101138532069401177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_146
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c398bbf67aa4469caafcc2eab0ce21a
+      internalID: -7360314315880209179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_147
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0225ffac36d47d29724ed0827e3b0c
+      internalID: -4353016276717589851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa5fd739a6424bdda1ad1af7340433c
+      internalID: -3987090521690409344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806ac64cc51824c60bd989b7b32991b7
+      internalID: 9104378442349020268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_150
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c0c94f4e00e41248c600c14fe6c0b7
+      internalID: 700878647129749028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_151
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3267f51949834566aa58e5620530693
+      internalID: 3399086869657029086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f46d268290d341a682a0c8eb5d964e0
+      internalID: -8723473380084545549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_153
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d672a3e542b49cc8967cf16ff2bae1
+      internalID: -6624126027917094538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_154
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f535bda15024990b35514abf7f358f
+      internalID: 8671001133616087084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_155
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0b3e5b1721d4262bd63581daa6a40f
+      internalID: 6735954208779549777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_156
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2497c6ad862445899aeac569542d34
+      internalID: -5112902593363212225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_157
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f91f5b057fc43bd99c25ca1c513edd
+      internalID: -7734810733806382929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_158
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2866c2874e9444666aa682c754fc9e04
+      internalID: 188739962298385940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_159
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8495e91bba34240b142ed14f357b73
+      internalID: -2404252096829745096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_160
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b137898b0c24040e0bb41dcb4992cf80
+      internalID: -7990425856182617859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_161
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6960449e06656456e84545ac8d0f6f8c
+      internalID: 8782576814621507573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_162
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb9c76146fec4374967546f35199ab7
+      internalID: 8271105409661424977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_163
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e441b9b9de442b79f2e0102276a039
+      internalID: -4999103144258398746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_164
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd9bfaaa1b624be8a51105484c53742
+      internalID: -1584832400764851507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_165
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f998d55f97e4b4da6d9cee3b8839ec
+      internalID: -7402783808406084009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_166
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5688882a714c545d1b6387180d434c5f
+      internalID: -7268988587513772876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_167
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d967dbd5a86794869b6cfa23dbbd6388
+      internalID: 3289262605247904509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7f8e96f95044635a902ad789f5949b
+      internalID: -8134577881371390744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_169
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fecd9a2eb45e4b799870e708784ef97
+      internalID: 686830990244261206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d6abd8d2584c1ea15862c0c2c6306
+      internalID: -8164276813042360559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_171
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e9e28fcee2465bb8c22e78c885da1
+      internalID: 4535018744438025918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_172
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4154b4b30dfbe409aa3611f13c0bbdc7
+      internalID: -6743410550258859631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_173
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b61359acef84359b2ce82d1fbb3577
+      internalID: 7888812089055967852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_174
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2d30154b81b4067aa1eded7e85f7ae
+      internalID: -7016448677833555430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_175
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9454c6867172c437c803d0d532c59bcd
+      internalID: 285507391504326148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_176
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6316da64f35e34b99817d1f0a59768c8
+      internalID: 347782763754458859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_177
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bacf5efe35dbd48e4a7172c095ba9f94
+      internalID: 7473794893943769322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_178
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4e307e221574e9fb17f93ba6170947
+      internalID: -9073203005052372195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440fe2221c3894c9c8b5f684d0302008
+      internalID: -3362458882412751186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fc7317e84484253baa5498009d77a4
+      internalID: 1792089618157300087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_181
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc09826dea47f44f199678db9fba79eb
+      internalID: -1047152342009079609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad500b2e0bd5546b48b5779d255b1370
+      internalID: -7598717522753524889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_183
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275246f052cae416ea61e2166d06398f
+      internalID: -1854036414823731499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_184
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaad6d38e80648c39dbe0c6afd8d338
+      internalID: 7504793114413673108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_185
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9831851ebbdaa49a9934a8aafc68727b
+      internalID: 2240399414528086564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_186
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c70727a4c8b14fd883912106723ce66
+      internalID: 5065751626691864478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_187
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d76cabe38fc49a59d7f770b8af5bae
+      internalID: 9192249233960335047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_188
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05307e67bfa542a0a76dde11308c558
+      internalID: 7700253029027747780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_189
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c47c9cb40a14fb8974c7605f34125d
+      internalID: -3104810276610712958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_190
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ecb1b403d7f48ad9835cd20cf4da58
+      internalID: 8458414368230237452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_191
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665b515c2c8ff4f9e8de9e7f8f646833
+      internalID: 2837147029802647799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_192
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7370c3887bc43d5aed104b7e6d4e59
+      internalID: 8531651118741523298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_193
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ecb8404d3c1456dacbf30f7a61a35d
+      internalID: -8106433181955767690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_194
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b48bb189a4074d049ae6003fdd2f16f
+      internalID: -2711693823257991513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_195
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da99078a48d174d2296e1a7ee574f7c6
+      internalID: -7848133348197889087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_196
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca64d517396a41019b3a1d14d8f90ed
+      internalID: -748458756048400228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_197
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c459d4e932cb7418b9682f19fe75109c
+      internalID: -6362822899384003479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_198
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e4fc01a8175489392b705c0ff12593
+      internalID: 6733860131912619918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_199
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6b8c07a63564d98b505a02c90271c4
+      internalID: 8599540578106036920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf9467066d6f4a1690e80ece2e41d33
+      internalID: -5602937874630874832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80772eb93a3b1417789a0f348a637996
+      internalID: -2184922335460294563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_202
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2e1cac3d07a4d44a7f41ab4d2b9d8e
+      internalID: -2315481941255920377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe8e2b74a6541ddabe57e1bb7110b4
+      internalID: -5399766106464580057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_204
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa83fb9e5fb4d4645bfb101bb4937edb
+      internalID: 104359749786658874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_205
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0dfd22b0e1e4a22a7440a4b48573b5
+      internalID: 4453344591887950324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_206
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b1cf94f22a14897a173bdfe8311921
+      internalID: 8341007382522141999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_207
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b5a6fa0f1d1445eb7b0dfcb95ec17a
+      internalID: 2293244107915538375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_208
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38c96357d56d467daf229990da47489
+      internalID: 5813440276933340739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_209
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cff7713d11174dd68c1f00334229a23
+      internalID: 5332358175920719090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_210
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d480b1942d5c4dfca92c7a4b4f67c03
+      internalID: 3998323823405776521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_211
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb25f841d94ee45a8a38261046127110
+      internalID: -7191775652273300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_212
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c14c2fa68e5467d931ffc2dbf9dfdd
+      internalID: 923574566529149122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_213
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161ae91ea60b34d9dabe48062ecac1ce
+      internalID: 7901150788903259348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_214
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b924872efa439f9a8be94e8065fff
+      internalID: 6811836223969396988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_215
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1153d7c70861847479b2eb5e876f7353
+      internalID: 8382597761535618158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_216
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c035358cf7bff47a9be05da0b73eb329
+      internalID: 3563853251837937691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_217
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7a621552df49259667e2907623944
+      internalID: 1637487895048586500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_218
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9cf37a76df645bfb7d3d897e644091
+      internalID: 3772882995986099040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_219
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27564e73650d24076a6fbe075d59f807
+      internalID: -5643346566732105711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_220
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916665f6c935d4d72af392fb27a1c6c0
+      internalID: 1885304289903242319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa9005226e0e4fe495c7a1972c61127
+      internalID: -2372820937557559175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_222
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0252bc74f6e54d60abc65f053a5a596
+      internalID: -5234800387976311533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2db5704d0d4aae8ef6d6de7547dae
+      internalID: 4929207655107235907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ffb5b74899e4851992768029a69193
+      internalID: 3595439770578213673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_225
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff2f8343f8a34ae28ea104dfccf8c50
+      internalID: 2172666816888904511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_226
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33ee879aef934c63a1c45c4eb993347
+      internalID: 8851362833276487864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_227
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1df4134e99434b0ab592c856e2ad063
+      internalID: 4338772784060878527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_228
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280fa97a8ea2a40d28a9966d3379ab7a
+      internalID: 541223515647502466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_229
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c744b30cec3e449598240bc9532bbf34
+      internalID: 2708831172272287580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_230
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71c577913a5642dcbe8731622a49235
+      internalID: 3603364504242979014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_231
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e50fa3ce38d3475687cbfccf27b78b4
+      internalID: 8056469648277733385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_232
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e28e6391008431aa6f09ebd18bf460
+      internalID: 3340202859783425503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_233
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4d12c921fd54c60810105c658f6227
+      internalID: -7695135761920121892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_234
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24342745b69e436fa8a83952afa5de9
+      internalID: -9108843026608816354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_235
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41557da374094989ba31288e4f762f6
+      internalID: 3865819711007752199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_236
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30974938cf0d4943aeb597a172f6284
+      internalID: -8910386785883814223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_237
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a107ce2d6e504547af6f237ec5ceb4b
+      internalID: 5134942240421518349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_238
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebb44759bc7c49d286419c122e74908
+      internalID: 2313371984779844293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_239
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cd46dcef9b04f6a86f4a312187e07c
+      internalID: 6328225301951109975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_240
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efb81fffb0854a6c9effb03829f9c54
+      internalID: 3136765685952804139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_241
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc925da84192465cacdae2be7c8c849
+      internalID: -23691605664444325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_242
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830dd7043be19434b9a397180a3266ec
+      internalID: 1953977103407282814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_243
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef63f715ad34c55883ddbfb2a1d645
+      internalID: 7197491072306685496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_244
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc6aa0051441464794785c3b8c5d5b6
+      internalID: 2707098849811548084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_245
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e94dfb617ab44b7ae3336912110709
+      internalID: -481765118328423433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_246
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bb48fe4cef747e9a7b375a0860a05b
+      internalID: 343904414815788699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_247
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f5745cff83a4e8f95b6aedc89e0ac7
+      internalID: -5896108929038610013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_248
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8c1a57c23a74653999f8f8990ee8ca
+      internalID: 4484443537356820546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_249
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3e6e81384d340ff9f962c75649c838
+      internalID: 3449029823179397808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_250
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b583d1a74ad74a6b99feef7b8d7d912
+      internalID: -2410394765639306970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_251
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9947aa704d641589a99e2ea82de298
+      internalID: 5827893805031724758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_252
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279b35ecdcd74336b262f23eccf39a7
+      internalID: 3372694464526037904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_253
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081b3b736cb6548f59cf46d5e3daccce
+      internalID: 2798211251902836524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_254
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192965f6496784e349d664cea94afd8e
+      internalID: 659380727951279098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f083cf4952e154c2ab7961aadbd7dccf
+      internalID: -5226120133135729148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_256
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af2edfbb997f4a798bbcaa0aa97a01f
+      internalID: -5834730147923994099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_257
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ead705320ab4e0190091e0acaeb1c7
+      internalID: -5984229627959208306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_258
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ca0369e7acc4bb0bd23e374884e3e1
+      internalID: -1342464664753636104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_259
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ff9dcd5019e4e85873f2fb4db8c9e1
+      internalID: 8220779092705808613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_260
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f63360910d74f46a2703cc279a3981
+      internalID: 4414028124808435030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_261
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87301bba618cf47f7bafa3453a0251ab
+      internalID: -4327933394927514533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_262
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f658d3a7f12b84131b1ea774fdc3bc4f
+      internalID: 5851712269116122839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_263
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c5ff3804ce943fea7984f80b2587f2
+      internalID: 5849064731842855073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_264
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8c2da154e0d4133babe1480da395c8
+      internalID: 1789570542511717632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: placeholder_tileset_64x64_265
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f70f5d8b2214c748b250d3f418f658
+      internalID: -3613636241401558091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
