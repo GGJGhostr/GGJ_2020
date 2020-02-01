@@ -8,6 +8,7 @@ public class OpenCommandMenu : MonoBehaviour
 {
 
     public GameObject cmdZone;
+    public GameObject CommandLister = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,8 @@ public class OpenCommandMenu : MonoBehaviour
         {
             cmdZone.SetActive(true);
             EventSystem.current.SetSelectedGameObject(cmdZone);
+
+            CommandLister.SetActive(true);
         }
 
     }
@@ -33,5 +36,7 @@ public class OpenCommandMenu : MonoBehaviour
     public void EndEdit()
     {
         cmdZone.GetComponent<InputField>().text = string.Empty;
+
+        CommandLister.SetActive(false);
     }
 }
