@@ -28,12 +28,12 @@ public class Character :MonoBehaviour
     //new type parameter 
     private Vector2 velocity = new Vector2(0, 0);
 
-    private float walk = 5.0f;
-    private float initialTime = 2.0f;
+    [SerializeField]private float walk = 50.0f;
+    [SerializeField] private float initialTime = 2.0f;
     private float deleteTime = 0;
 
-    private float jump = 5.0f;
-    private float gravity = 10.0f;
+    [SerializeField] private float jump = 50.0f;
+    [SerializeField] private float gravity = 100.0f;
     private bool jumpTruth = false;
 
     private Rigidbody2D rigidbody2d;
