@@ -17,9 +17,19 @@ public class GroundingDecision : MonoBehaviour
             if (!ground)
             {
                 ground = true;
-                this.gameObject.SetActive(false);
             }
             
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            if (ground)
+            {
+                ground = false;
+            }
+
         }
     }
 }
