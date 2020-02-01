@@ -1,6 +1,5 @@
 //Author: Richard Pieterse
-//Date: 16 May 2013
-//Email: Merrik44@live.com
+//Latest Update: Xu Wang
 
 using UnityEngine;
 using System.Collections;
@@ -14,23 +13,23 @@ namespace GamepadInput
         public enum Button { A, B, Y, X, RightShoulder, LeftShoulder, RightStick, LeftStick, Back, Start }
         public enum Trigger { LeftTrigger, RightTrigger }
         public enum Axis { LeftStick, RightStick, Dpad }
-        public enum Index { Any, One, Two, Three, Four }
+        public enum PlayerIndex { Any, One, Two, Three, Four }
 
-        public static bool GetButtonDown(Button button, Index controlIndex)
+        public static bool GetButtonDown(Button button, PlayerIndex controlPlayerIndex)
         {
-            KeyCode code = GetKeycode(button, controlIndex);
+            KeyCode code = GetKeycode(button, controlPlayerIndex);
             return Input.GetKeyDown(code);
         }
 
-        public static bool GetButtonUp(Button button, Index controlIndex)
+        public static bool GetButtonUp(Button button, PlayerIndex controlPlayerIndex)
         {
-            KeyCode code = GetKeycode(button, controlIndex);
+            KeyCode code = GetKeycode(button, controlPlayerIndex);
             return Input.GetKeyUp(code);
         }
 
-        public static bool GetButton(Button button, Index controlIndex)
+        public static bool GetButton(Button button, PlayerIndex controlPlayerIndex)
         {
-            KeyCode code = GetKeycode(button, controlIndex);
+            KeyCode code = GetKeycode(button, controlPlayerIndex);
             return Input.GetKey(code);
         }
 
@@ -38,26 +37,26 @@ namespace GamepadInput
         /// returns a specified axis
         /// </summary>
         /// <param name="axis">One of the analogue sticks, or the dpad</param>
-        /// <param name="controlIndex">The controller number</param>
-        /// <param name="raw">if raw is false then the controlIndex will be returned with a deadspot</param>
+        /// <param name="controlPlayerIndex">The controller number</param>
+        /// <param name="raw">if raw is false then the controlPlayerIndex will be returned with a deadspot</param>
         /// <returns></returns>
-        public static Vector2 GetAxis(Axis axis, Index controlIndex, bool raw = false)
+        public static Vector2 GetAxis(Axis axis, PlayerIndex controlPlayerIndex, bool raw = false)
         {
 
             string xName = "", yName = "";
             switch (axis)
             {
                 case Axis.Dpad:
-                    xName = "DPad_XAxis_" + (int)controlIndex;
-                    yName = "DPad_YAxis_" + (int)controlIndex;
+                    xName = "DPad_XAxis_" + (int)controlPlayerIndex;
+                    yName = "DPad_YAxis_" + (int)controlPlayerIndex;
                     break;
                 case Axis.LeftStick:
-                    xName = "L_XAxis_" + (int)controlIndex;
-                    yName = "L_YAxis_" + (int)controlIndex;
+                    xName = "L_XAxis_" + (int)controlPlayerIndex;
+                    yName = "L_YAxis_" + (int)controlPlayerIndex;
                     break;
                 case Axis.RightStick:
-                    xName = "R_XAxis_" + (int)controlIndex;
-                    yName = "R_YAxis_" + (int)controlIndex;
+                    xName = "R_XAxis_" + (int)controlPlayerIndex;
+                    yName = "R_YAxis_" + (int)controlPlayerIndex;
                     break;
             }
 
@@ -84,14 +83,14 @@ namespace GamepadInput
             return axisXY;
         }
 
-        public static float GetTrigger(Trigger trigger, Index controlIndex, bool raw = false)
+        public static float GetTrigger(Trigger trigger, PlayerIndex controlPlayerIndex, bool raw = false)
         {
             //
             string name = "";
             if (trigger == Trigger.LeftTrigger)
-                name = "TriggersL_" + (int)controlIndex;
+                name = "TriggersL_" + (int)controlPlayerIndex;
             else if (trigger == Trigger.RightTrigger)
-                name = "TriggersR_" + (int)controlIndex;
+                name = "TriggersR_" + (int)controlPlayerIndex;
 
             //
             float axis = 0;
@@ -111,11 +110,11 @@ namespace GamepadInput
         }
 
 
-        static KeyCode GetKeycode(Button button, Index controlIndex)
+        static KeyCode GetKeycode(Button button, PlayerIndex controlPlayerIndex)
         {
-            switch (controlIndex)
+            switch (controlPlayerIndex)
             {
-                case Index.One:
+                case PlayerIndex.One:
                     switch (button)
                     {
                         case Button.A: return KeyCode.Joystick1Button0;
@@ -130,7 +129,7 @@ namespace GamepadInput
                         case Button.RightStick: return KeyCode.Joystick1Button9;
                     }
                     break;
-                case Index.Two:
+                case PlayerIndex.Two:
                     switch (button)
                     {
                         case Button.A: return KeyCode.Joystick2Button0;
@@ -145,7 +144,7 @@ namespace GamepadInput
                         case Button.RightStick: return KeyCode.Joystick2Button9;
                     }
                     break;
-                case Index.Three:
+                case PlayerIndex.Three:
                     switch (button)
                     {
                         case Button.A: return KeyCode.Joystick3Button0;
@@ -160,7 +159,7 @@ namespace GamepadInput
                         case Button.RightStick: return KeyCode.Joystick3Button9;
                     }
                     break;
-                case Index.Four:
+                case PlayerIndex.Four:
 
                     switch (button)
                     {
@@ -177,7 +176,7 @@ namespace GamepadInput
                     }
 
                     break;
-                case Index.Any:
+                case PlayerIndex.Any:
                     switch (button)
                     {
                         case Button.A: return KeyCode.JoystickButton0;
@@ -196,34 +195,34 @@ namespace GamepadInput
             return KeyCode.None;
         }
 
-        public static GamepadState GetState(Index controlIndex, bool raw = false)
+        public static GamepadState GetState(PlayerIndex controlPlayerIndex, bool raw = false)
         {
             GamepadState state = new GamepadState();
 
-            state.A = GetButton(Button.A, controlIndex);
-            state.B = GetButton(Button.B, controlIndex);
-            state.Y = GetButton(Button.Y, controlIndex);
-            state.X = GetButton(Button.X, controlIndex);
+            state.A = GetButton(Button.A, controlPlayerIndex);
+            state.B = GetButton(Button.B, controlPlayerIndex);
+            state.Y = GetButton(Button.Y, controlPlayerIndex);
+            state.X = GetButton(Button.X, controlPlayerIndex);
 
-            state.RightShoulder = GetButton(Button.RightShoulder, controlIndex);
-            state.LeftShoulder = GetButton(Button.LeftShoulder, controlIndex);
-            state.RightStick = GetButton(Button.RightStick, controlIndex);
-            state.LeftStick = GetButton(Button.LeftStick, controlIndex);
+            state.RightShoulder = GetButton(Button.RightShoulder, controlPlayerIndex);
+            state.LeftShoulder = GetButton(Button.LeftShoulder, controlPlayerIndex);
+            state.RightStick = GetButton(Button.RightStick, controlPlayerIndex);
+            state.LeftStick = GetButton(Button.LeftStick, controlPlayerIndex);
 
-            state.Start = GetButton(Button.Start, controlIndex);
-            state.Back = GetButton(Button.Back, controlIndex);
+            state.Start = GetButton(Button.Start, controlPlayerIndex);
+            state.Back = GetButton(Button.Back, controlPlayerIndex);
 
-            state.LeftStickAxis = GetAxis(Axis.LeftStick, controlIndex, raw);
-            state.rightStickAxis = GetAxis(Axis.RightStick, controlIndex, raw);
-            state.dPadAxis = GetAxis(Axis.Dpad, controlIndex, raw);
+            state.LeftStickAxis = GetAxis(Axis.LeftStick, controlPlayerIndex, raw);
+            state.rightStickAxis = GetAxis(Axis.RightStick, controlPlayerIndex, raw);
+            state.dPadAxis = GetAxis(Axis.Dpad, controlPlayerIndex, raw);
 
             state.Left = (state.dPadAxis.x < 0);
             state.Right = (state.dPadAxis.x > 0);
             state.Up = (state.dPadAxis.y > 0);
             state.Down = (state.dPadAxis.y < 0);
 
-            state.LeftTrigger = GetTrigger(Trigger.LeftTrigger, controlIndex, raw);
-            state.RightTrigger = GetTrigger(Trigger.RightTrigger, controlIndex, raw);
+            state.LeftTrigger = GetTrigger(Trigger.LeftTrigger, controlPlayerIndex, raw);
+            state.RightTrigger = GetTrigger(Trigger.RightTrigger, controlPlayerIndex, raw);
 
             return state;
         }
