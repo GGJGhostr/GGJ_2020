@@ -15,8 +15,19 @@ public class CommandLineInterpreter : MonoBehaviour
 
     public void InterpretCommand(string[] cmds, KeyValuePair<string, System.Type> arg)
     {
-        dynamic obj = ComputeTypeConvertion(cmds[2], arg.Value);
-        if (obj == null)
+        if(cmds.Length <= 2 && arg.Value != typeof(bool))
+        {
+            Debug.Log(cmds[0] + " " + cmds[1] + " need a value");
+            return;
+        }
+
+        dynamic obj;
+
+        if (arg.Value == typeof(bool) && cmds.Length <= 2)
+            obj = null;
+        else
+            obj = ComputeTypeConvertion(cmds[2], arg.Value);
+        if (obj == null && arg.Value != typeof(bool))
         {
             Debug.Log("Bad parameter: " + cmds[2]);
             return;

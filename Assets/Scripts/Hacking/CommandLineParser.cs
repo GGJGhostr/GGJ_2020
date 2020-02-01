@@ -27,6 +27,10 @@ public class CommandLineParser : MonoBehaviour
         List<string> list = new List<string>(args);
         list.RemoveAll(item => item == "");
         args = list.ToArray();
+
+        if (args.Length <= 1)
+            return;
+
         bool is_command_exist = IsAnExistingCommand(args);
         if(!is_command_exist)
         {

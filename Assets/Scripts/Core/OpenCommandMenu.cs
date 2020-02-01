@@ -9,11 +9,6 @@ public class OpenCommandMenu : MonoBehaviour
 
     public GameObject cmdZone;
     public GameObject CommandLister = null;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -25,10 +20,13 @@ public class OpenCommandMenu : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            cmdZone.SetActive(true);
-            EventSystem.current.SetSelectedGameObject(cmdZone);
+            if (cmdZone.activeSelf || CommandLister.activeSelf)
+                return;
 
+            cmdZone.SetActive(true);
             CommandLister.SetActive(true);
+
+            EventSystem.current.SetSelectedGameObject(cmdZone);
         }
 
     }

@@ -36,9 +36,15 @@ public class CommandListerPannel : MonoBehaviour
         if (cmds.Length == 1)
             DisplayCommandFor(null);
         else if (cmds.Length == 2)
+        {
+            if(!m_dataBase.IsAnExistingHackableEntity(cmds[0]))
+                return;
             DisplayCommandFor(cmds[0]);
+        }
         else
         {
+            if (!m_dataBase.IsAnExistingHackableEntity(cmds[0]))
+                return;
             DesactivateAllChild();
             var pair = m_dataBase.GetTweakableValuePair(cmds[0], cmds[1]);
             if (pair == null)
