@@ -33,5 +33,6 @@ public class OpenCommandMenu : MonoBehaviour
     public void EndEdit()
     {
         cmdZone.GetComponent<InputField>().text = string.Empty;
+        cmdZone.SetActive(false);
     }
 }
