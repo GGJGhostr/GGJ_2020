@@ -101,4 +101,12 @@ public class Character :MonoBehaviour
         //FocusOnInput();
         UpdatePlayerStates();
     }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            if(!groundingDecision.Ground)velocity.x = 0;
+        }
+    }
 }
