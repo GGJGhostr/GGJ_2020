@@ -1,31 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
+using GamepadInput;
 
 public class Character :MonoBehaviour
 {
-    #region old parameter
-    //character parameter
-    private int lifePoint;//life
-    private float walkSpeed=50.0f;//walking speed
-    private float runSpeed;//run speed //unused?
-    private float jumpForce = 500.0f;//jump strength/force
-    private float mass;//character weight //unused?
-    //private Rigidbody2D rigidbody2d;//rigidbody //unused?
-
-    //unused? parameter 
-    //private bool jumpTruth=false;//jumping Judgment
-    private float jumpPulsRanPower = 0.0f;// junmping + ranSpeed * jumpPulsRanPower
-    //private float initialtime;//initial speed time
-
-
-    //bullet parameter??
-    private Vector2 shootDirection;//shoot direction
-    private Vector2 shootStrength;//shoot strength
-
-    #endregion old parameter
-
-    //new type parameter 
     private Vector2 velocity = new Vector2(0, 0);
 
     [SerializeField]private float walk = 50.0f;
@@ -38,6 +19,10 @@ public class Character :MonoBehaviour
 
     private Rigidbody2D rigidbody2d;
 
+    public InputField input;
+    public float smooth = 0.01f;
+    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
+
     //action
 
     //new type
@@ -46,36 +31,6 @@ public class Character :MonoBehaviour
         rigidbody2d.MovePosition(this.gameObject.transform.position+vector);
     }
 
-    #region old action
-    public void CharacterMove(Vector2 vector)//move walk or move walk and run
-    {
-        rigidbody2d.AddForce(vector);
-    }
-
-    public void CharacterJump(Vector2 vector)//jump
-    {
-        rigidbody2d.AddForce(vector);
-        jumpTruth = true;
-    }
-
-    public void HitBullet(int damage)//received damage or hit bullet
-    {
-        lifePoint -= damage;
-        if (lifePoint <= 0) CharacterDeath();
-    }
-    private void CharacterDeath()//character life 0
-    {
-        Debug.Log("character life 0 , character death");
-    }
-
-    public void ShootBullet()//shoot bullet
-    {
-        //create bullet
-        //bullet.rigidbody2d.addforce(shootStrength);
-        //bullet.direction.change
-    }
-    #endregion old action
-
     //debug
     private void Start()
     {
@@ -83,7 +38,7 @@ public class Character :MonoBehaviour
         rigidbody2d.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
-    private void FixedUpdate()
+    private void UpdatePlayerStates()
     {
         if (jumpTruth)//Avoid moving while jumping
         {
@@ -99,61 +54,44 @@ public class Character :MonoBehaviour
             jumpTruth = false;
             return;
         }
-        if ((Input.GetKeyDown(KeyCode.Space))&&!jumpTruth)//jump
+
+        GamepadState player_state = GamePad.GetState(player_idx);
+        if (player_state.A && !jumpTruth)//jump
         {
             velocity = new Vector3(velocity.x, velocity.y + jump);
             jumpTruth = true;
             return;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))//move right
+        else if (player_state.LeftStickAxis != Vector2.zero)
         {
-            velocity = new Vector3(Mathf.Lerp(0, walk, deleteTime/initialTime), velocity.y ,0);
-            if(initialTime>deleteTime)deleteTime += Time.deltaTime;
-            var vector = velocity * Time.deltaTime;
-            Move(vector);
-            return;
-        }
-        else if (Input.GetKey(KeyCode.LeftArrow))//move left
-        {
-            velocity = new Vector3(Mathf.Lerp(0, -walk, deleteTime / initialTime), velocity.y, 0);
-            if (initialTime > deleteTime) deleteTime += Time.deltaTime;
-            var vector = velocity * Time.deltaTime;
-            Move(vector);
-            return;
+            if (player_state.LeftStickAxis.x>Vector2.zero.x)//move right
+            {
+                velocity = new Vector3(Mathf.Lerp(0, walk, deleteTime / initialTime), velocity.y, 0);
+                if (initialTime > deleteTime) deleteTime += Time.deltaTime;
+                var vector = velocity * Time.deltaTime;
+                Move(vector);
+                return;
+            }
+            else if (player_state.LeftStickAxis.x < Vector2.zero.x)//move left
+            {
+                velocity = new Vector3(Mathf.Lerp(0, -walk, deleteTime / initialTime), velocity.y, 0);
+                if (initialTime > deleteTime) deleteTime += Time.deltaTime;
+                var vector = velocity * Time.deltaTime;
+                Move(vector);
+                return;
+            }
         }
         if(deleteTime!=0)deleteTime = 0;
     }
 
-    //private void FixedUpdate()
-    //{
+    private void FocusOnInput()
+    {
+        EventSystem.current.SetSelectedGameObject(input.gameObject, null);
+    }
 
-    //    if (jumpTruth)//Avoid moving while jumping
-    //    {
-    //        if (rigidbody2d.velocity.y == 0)
-    //        {
-    //            Debug.Log("move ok");
-    //            jumpTruth = false;
-    //        }
-    //        return;
-    //    }
-
-    //    if (Input.GetKeyDown(KeyCode.Space))//jump
-    //    {
-    //        var vector = new Vector2(rigidbody2d.velocity.x, jumpForce);
-    //        CharacterJump(vector);
-    //        Debug.Log("jump");
-    //    }
-    //    else if (Input.GetKey(KeyCode.RightArrow))//move right
-    //    {
-    //        if (rigidbody2d.velocity.x > 5) return;
-    //        var vector = new Vector2(walkSpeed, rigidbody2d.velocity.y);
-    //        CharacterMove(vector);
-    //    }
-    //    else if (Input.GetKey(KeyCode.LeftArrow))//move left
-    //    {
-    //        if (rigidbody2d.velocity.x < -5) return;
-    //        var vector = new Vector2(-walkSpeed, rigidbody2d.velocity.y);
-    //        CharacterMove(vector);
-    //    }
-    //}
+    void Update()
+    {
+        FocusOnInput();
+        UpdatePlayerStates();
+    }
 }
