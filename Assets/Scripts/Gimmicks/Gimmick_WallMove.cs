@@ -5,7 +5,6 @@ using UnityEngine;
 public class Gimmick_WallMove : MonoBehaviour
 {
     [SerializeField] private Vector2 movePositionVector = Vector2.zero;
-    [SerializeField] private Vector2 charactorSize = new Vector2(0.5f, 1);
     private Gimmicks_MoveWall_Manager manager;
     private bool touchPlayer = false;
     private void Start()
@@ -20,13 +19,14 @@ public class Gimmick_WallMove : MonoBehaviour
             if (!manager.MoveWall) return;
             if (!manager.PlayerTouch)
             {
-                var coll = collision.gameObject.transform.position;
-                manager.PlayerTouch = true;
-                collision.gameObject.transform.position=coll * movePositionVector;
-                if(movePositionVector.y!=0&& coll.y>0)
-                {
-                    collision.gameObject.transform.position = new Vector2(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y + charactorSize.y);
-                }
+                var x = collision.gameObject.transform.position.x;
+                var y = collision.gameObject.transform.position.y;
+
+                if (movePositionVector.x != 0) x = x * (-1) + movePositionVector.x;
+                else if (movePositionVector.y > 0) y = y * (-1) + movePositionVector.y;
+                else y = y * (-1);
+
+                collision.gameObject.transform.position = new Vector2(x, y);
             }
         }
     }
