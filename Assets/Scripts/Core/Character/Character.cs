@@ -22,6 +22,7 @@ public class Character : MonoBehaviour
     {
         m_controller = GetComponent<CharacterController2D>();
         m_shootingBehavior = GetComponent <CharacterShooting>();
+        gameObject.AddComponent<CharacterScoring>();
     }
 
     void Update()

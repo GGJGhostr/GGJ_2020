@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI/FinalScreen.unity
     guid: 6f54536a6c36f4a32b12f0722fb4ec58
+  - enabled: 1
+    path: Assets/Scenes/Bullet_scene.unity
+    guid: 01ed4557c45a3a448ba0713d48839ef3
+  - enabled: 1
+    path: Assets/Scenes/InitScene.unity
+    guid: a42afd4267d4c15478b55693d8dea7aa
   m_configObjects: {}

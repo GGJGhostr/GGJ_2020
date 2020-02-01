@@ -58,7 +58,7 @@ public class CharacterShooting : MonoBehaviour
         float angle = Vector2.Angle(forward_vec, dir);
         Quaternion quat = Quaternion.AngleAxis(angle, Vector3.forward);
         GameObject clone = Instantiate(m_bulletPrefab, spawner_pos, quat);
-        clone.GetComponent<Bullet>().Fire(dir);
+        clone.GetComponent<Bullet>().Fire(dir, GetComponent<Character>());
         //bullet.Fire(dir);
     }
 }

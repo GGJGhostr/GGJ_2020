@@ -13,6 +13,8 @@ public class Bullet : MonoBehaviour, IHackable
     private Rigidbody2D m_rigidbody2D = null;
     private bool is_fired = false;
 
+    private Character m_owner = null;
+
     private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
@@ -23,8 +25,9 @@ public class Bullet : MonoBehaviour, IHackable
 
     }
 
-    public void Fire(Vector2 dir)
+    public void Fire(Vector2 dir, Character owner)
     {
+        m_owner = owner;
         m_dir = dir;
         m_rigidbody2D.AddForce(m_dir * m_projectileSpeed);
         is_fired = true;
@@ -44,6 +47,14 @@ public class Bullet : MonoBehaviour, IHackable
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(collision.collider.gameObject != m_owner.gameObject)
+        {
+            if(collision.gameObject.tag == "Player")
+            {
+                CharacterScoring scoring = m_owner.GetComponent<CharacterScoring>();
+                scoring.incrementScore();
+            }
+        }
         Destroy(gameObject);
     }
 
