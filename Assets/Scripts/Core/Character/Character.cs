@@ -11,18 +11,51 @@ public class Character : MonoBehaviour
     private bool is_jumping = false;
     public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
 
+    private bool m_timerNeedUpdate = false;
+    private float m_shootTimer = 1f;
+    private float m_currentTime = 0f;
 
-    void Start()
+    private CharacterShooting m_shootingBehavior = null;
+    private bool has_shooted = false;
+
+    private void Awake()
     {
         m_controller = GetComponent<CharacterController2D>();
+        m_shootingBehavior = GetComponent <CharacterShooting>();
+        gameObject.AddComponent<CharacterScoring>();
     }
 
     void Update()
     {
-        GamepadState player_state = GamePad.GetState(player_idx);
+        if (m_timerNeedUpdate)
+            UpdateTimer();
 
-        is_jumping = player_state.A;
+        GamepadState player_state = GamePad.GetState(player_idx);
+        ComputeCharacterInputAction(player_state);
         horizontal_move = player_state.LeftStickAxis.x * run_speed;
+    }
+
+    private void UpdateTimer()
+    {
+        m_currentTime += Time.deltaTime;
+        if(m_currentTime >= m_shootTimer)
+        {
+            m_timerNeedUpdate = false;
+            m_currentTime = 0f;
+            has_shooted = false;
+        }
+    }
+
+    private void ComputeCharacterInputAction(GamepadState player_state)
+    {
+        is_jumping = player_state.A;
+
+        if (player_state.RightTrigger > 0f && !has_shooted)
+        {
+            has_shooted = true;
+            m_timerNeedUpdate = true;
+            m_shootingBehavior.ShootBullet(player_state.rightStickAxis);
+        }
     }
 
     private void FixedUpdate()
