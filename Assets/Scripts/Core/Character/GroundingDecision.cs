@@ -5,11 +5,21 @@ using UnityEngine;
 public class GroundingDecision : MonoBehaviour
 {
     private bool ground = false;
+    public bool Ground
+    {
+        get { return ground; }
+        set { ground = value; }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "ground")
+        if (collision.gameObject.tag == "Ground")
         {
-
+            if (!ground)
+            {
+                ground = true;
+                this.gameObject.SetActive(false);
+            }
+            
         }
     }
 }

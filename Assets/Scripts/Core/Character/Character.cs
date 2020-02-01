@@ -16,9 +16,13 @@ public class Character :MonoBehaviour
 
     [SerializeField] private float jump = 50.0f;
     [SerializeField] private float gravity = 100.0f;
+    [SerializeField] private float baseGravity = -50f;
+    [SerializeField] private bool terminalGravity = false;
     private bool jumpTruth = true;
 
     private Rigidbody2D rigidbody2d;
+    private GameObject child;
+    private GroundingDecision groundingDecision;
 
     public InputField input;
     public float smooth = 0.01f;
@@ -37,30 +41,28 @@ public class Character :MonoBehaviour
     {
         rigidbody2d= this.GetComponent<Rigidbody2D>();
         rigidbody2d.constraints = RigidbodyConstraints2D.FreezeRotation;
+        child = this.gameObject.transform.GetChild(0).gameObject;
+        groundingDecision = this.gameObject.transform.GetChild(0).gameObject.GetComponent<GroundingDecision>();
     }
 
     private void UpdatePlayerStates()
     {
-        if (jumpTruth)//Avoid moving while jumping
+        if (!groundingDecision.Ground)//Avoid moving while jumping
         {
             var vector = velocity * Time.deltaTime;
             Move(vector);
-            if (velocity.y > -jump) 
-            {
-                velocity =new Vector2(velocity.x,velocity.y -gravity * Time.deltaTime);
-                return;
-            }
-            Debug.Log("move ok");
-            velocity = Vector2.zero;
-            jumpTruth = false;
+            if (velocity.y < 0 && !child.activeInHierarchy) child.SetActive(true);
+            if (velocity.y < baseGravity&&terminalGravity)return;
+            velocity = new Vector2(velocity.x, velocity.y - gravity * Time.deltaTime);
             return;
         }
+        else if (!child.activeInHierarchy && velocity.y != 0) velocity = Vector2.zero;
 
         GamepadState player_state = GamePad.GetState(player_idx);
-        if (player_state.A && !jumpTruth)//jump
+        if (player_state.A && groundingDecision.Ground)//jump
         {
             velocity = new Vector3(velocity.x, velocity.y + jump);
-            jumpTruth = true;
+            groundingDecision.Ground = false;
             return;
         }
         else if (player_state.LeftStickAxis != Vector2.zero)
@@ -84,7 +86,7 @@ public class Character :MonoBehaviour
         EventSystem.current.SetSelectedGameObject(input.gameObject, null);
     }
 
-    void Update()
+    void FixedUpdate()
     {
         //FocusOnInput();
         UpdatePlayerStates();
