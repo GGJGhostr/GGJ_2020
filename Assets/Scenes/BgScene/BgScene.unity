@@ -237,13 +237,13 @@ MonoBehaviour:
   - {fileID: 4844384244922966183, guid: 3caa8c4b7d4ff4bbc89c00798bb3cd7e, type: 3}
   - {fileID: 7985462784233543309, guid: 9f1448d9bd2474001859693c841108a1, type: 3}
   - {fileID: 984626368937599383, guid: aafffb172fb85489eae9e1c44df01fef, type: 3}
-  cloud_num_scale: 2
+  fix_start_pos: 20
+  cloud_num_scale: 3
   cloud_random_range_Y: {x: 6, y: 0}
-  cloud_start_X: 20
-  cloud_interval_X: 10
+  cloud_random_range_X: {x: 20, y: 60}
   cloud_random_range_speed: {x: 0.5, y: 3}
   speed: -10
-  cycle_length: 100
+  cycle_length: 40
   smoothTime: 3
 --- !u!4 &419985091
 Transform:
@@ -313,7 +313,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 3c03a91f46e454baa96ebaa69dc3c79b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -419,7 +419,7 @@ PrefabInstance:
     - target: {fileID: 9139808902319409871, guid: bb980e0bac7794bf1b0394b0d1b5e1d9,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb980e0bac7794bf1b0394b0d1b5e1d9, type: 3}

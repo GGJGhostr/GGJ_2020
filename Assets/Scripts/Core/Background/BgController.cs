@@ -3,11 +3,11 @@
 public class BgController : MonoBehaviour
 {
     public GameObject[] cloud_prefab;
+    public int fix_start_pos;
     public int cloud_num_scale = 2;
     private GameObject[] cloud_obj;
     public Vector2 cloud_random_range_Y;
-    public float cloud_start_X;
-    public float cloud_interval_X;
+    public Vector2 cloud_random_range_X;
     public Vector2 cloud_random_range_speed;
 
     private Vector3[] startPos;
@@ -20,7 +20,7 @@ public class BgController : MonoBehaviour
     private void RandCloudPos(int idx)
     {
         float random_seed = Random.Range(cloud_random_range_speed.x, cloud_random_range_speed.y);
-        float cloud_x = cloud_start_X + cloud_interval_X * random_seed * idx;
+        float cloud_x = Random.Range(cloud_random_range_X.x, cloud_random_range_X.y);
         float cloud_y = Random.Range(cloud_random_range_Y.x, cloud_random_range_Y.y);
         startPos[idx] = new Vector3(cloud_x, cloud_y, 0.0f);
         cloud_obj[idx].transform.position = startPos[idx];
@@ -44,7 +44,7 @@ public class BgController : MonoBehaviour
             Vector3 target = new Vector3(cloud_obj[i].transform.position.x + speed * random_seed, cloud_obj[i].transform.position.y, 0.0f);
             cloud_obj[i].transform.position = Vector3.SmoothDamp(cloud_obj[i].transform.position, target, ref velocity, smoothTime);
             float move_length = Mathf.Abs(cloud_obj[i].transform.position.x - startPos[i].x);
-            if (move_length > cycle_length)
+            if (move_length > cycle_length + (startPos[i].x - fix_start_pos))
             {
                 RandCloudPos(i);
             }
