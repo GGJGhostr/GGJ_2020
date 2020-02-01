@@ -64,22 +64,12 @@ public class Character :MonoBehaviour
         }
         else if (player_state.LeftStickAxis != Vector2.zero)
         {
-            if (player_state.LeftStickAxis.x>Vector2.zero.x)//move right
-            {
-                velocity = new Vector3(Mathf.Lerp(0, walk, deleteTime / initialTime), velocity.y, 0);
-                if (initialTime > deleteTime) deleteTime += Time.deltaTime;
-                var vector = velocity * Time.deltaTime;
-                Move(vector);
-                return;
-            }
-            else if (player_state.LeftStickAxis.x < Vector2.zero.x)//move left
-            {
-                velocity = new Vector3(Mathf.Lerp(0, -walk, deleteTime / initialTime), velocity.y, 0);
-                if (initialTime > deleteTime) deleteTime += Time.deltaTime;
-                var vector = velocity * Time.deltaTime;
-                Move(vector);
-                return;
-            }
+            var puls = (player_state.LeftStickAxis.x < 0) ? -1 : 1;
+            velocity = new Vector3(Mathf.Lerp(0, walk * puls, deleteTime / initialTime), velocity.y, 0);
+            if (initialTime > deleteTime) deleteTime += Time.deltaTime;
+            var vector = velocity * Time.deltaTime;
+            Move(vector);
+            return;
         }
         if(deleteTime!=0)deleteTime = 0;
     }
