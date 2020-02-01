@@ -40,7 +40,7 @@ namespace Ghostr
 
         public void StartGame()
         {
-            SceneHandler.ChangeScene("Bullet_scene");
+            SceneHandler.ChangeScene("MainGame");
             PlayerManager.RegisterCharacterReference();
         }
 
