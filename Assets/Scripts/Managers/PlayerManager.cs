@@ -11,7 +11,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private GameObject m_player1Prefab = null;
     [SerializeField] private GameObject m_player2Prefab = null;
 
-    private List<Character> m_charactersList = null;
+    public List<Character> m_charactersList { get; private set; }
 
     private void Awake()
     {
