@@ -8,3 +8,12 @@ public class SpriteScriptable : ScriptableObject
 
     public Sprite[] sprites => _sprites;
 }
+
+[CreateAssetMenu(menuName = "UI/String", fileName = "String")]
+
+public class StringScriptable : ScriptableObject
+{
+    [SerializeField] private string[] _strings = null;
+
+    public string[] strings => _strings;
+}

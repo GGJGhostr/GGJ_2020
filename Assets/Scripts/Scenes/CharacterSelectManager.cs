@@ -12,8 +12,9 @@ public class CharacterSelectManager : MonoBehaviour
     private Image characterImage;
     private int selectNumber = 0;
     private bool changed = false;
+    private float time = 0;
+    private float delay = 0.3f;
     private bool endSelect = false;
-
     public bool EndSelect => endSelect;
 
     private void Start()
@@ -22,9 +23,9 @@ public class CharacterSelectManager : MonoBehaviour
         characterImage.sprite= sprites.sprites[selectNumber];
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
+        if (endSelect) return;
         GamepadState player_state = GamePad.GetState(player_idx);
 
         if (player_state.B)
@@ -43,6 +44,6 @@ public class CharacterSelectManager : MonoBehaviour
             changed = true;
             return;
         }
-        changed = false;
+        if (player_state.LeftStickAxis.x== 0) changed = false;
     }
 }

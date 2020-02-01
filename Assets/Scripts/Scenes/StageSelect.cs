@@ -1,0 +1,65 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using GamepadInput;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+public class StageSelect : MonoBehaviour
+{
+    [SerializeField] private List<CharacterSelectManager> characterSelects = new List<CharacterSelectManager>();
+    private bool stageSelect = false;
+
+    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
+    public GamePad.PlayerIndex player_idxtwo = GamePad.PlayerIndex.Two;
+
+    [SerializeField] private Text stagename;
+    [SerializeField] private StringScriptable strings;
+    private int selectStageNumber = 0;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        stagename.text = strings.strings[selectStageNumber];
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (stageSelect)
+        {
+            StageSelectUpdatte();
+            return;
+        }
+        var notChanged = false;
+        foreach (CharacterSelectManager character in characterSelects)
+        {
+            if (!character.EndSelect) notChanged = true;
+        }
+        if (!notChanged) stageSelect = true;
+    }
+
+    private void StageSelectUpdatte()
+    {
+        GamepadState player_state = GamePad.GetState(player_idx);
+        GamepadState player_statetwo = GamePad.GetState(player_idxtwo);
+
+        if (player_state.B || player_statetwo.B)
+        {
+            LoadBattleStage(strings.strings[selectStageNumber]);
+        }
+        else if (player_state.LeftStickAxis.x != 0|| player_statetwo.LeftStickAxis.x != 0)
+        {
+            if(player_state.LeftStickAxis.x != 0) selectStageNumber += (player_state.LeftStickAxis.x > 0) ? 1 : -1;
+            if (player_statetwo.LeftStickAxis.x != 0) selectStageNumber += (player_statetwo.LeftStickAxis.x > 0) ? 1 : -1;
+
+            if (selectStageNumber < 0) selectStageNumber = strings.strings.Length-1;
+            else if (selectStageNumber >= strings.strings.Length) selectStageNumber = 0;
+            stagename.text = strings.strings[selectStageNumber];
+        }
+    }
+    private void LoadBattleStage(string name)
+    {
+        if (string.IsNullOrEmpty(name)) return;
+        SceneManager.LoadScene(name);
+    }
+}
