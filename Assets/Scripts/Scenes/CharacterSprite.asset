@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: CharacterSprite
   m_EditorClassIdentifier: 
   _sprites:
-  - {fileID: 21300000, guid: 5c18a4c35327c0a45ba4b19ee0de21e4, type: 3}
   - {fileID: 21300000, guid: 8416bfb749375dd4aa50d4434aa89a3e, type: 3}
+  - {fileID: 21300000, guid: 1a75c6ecc5b50bc4eb3d7e26962e1809, type: 3}
+  - {fileID: 21300000, guid: 5c18a4c35327c0a45ba4b19ee0de21e4, type: 3}
