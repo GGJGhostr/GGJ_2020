@@ -63,6 +63,7 @@ namespace Ghostr
 
         public void GoToMenu()
         {
+            GameDataManager.ResetDatas();
             ScoringManager.ResetScore();
             PlayerManager.ClearPlayer();
             SceneHandler.ChangeScene("MainScreen");

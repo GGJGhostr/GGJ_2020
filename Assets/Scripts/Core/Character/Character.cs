@@ -20,6 +20,8 @@ public class Character : MonoBehaviour, IHackable
     private CharacterShooting m_shootingBehavior = null;
     private bool has_shooted = false;
 
+    private Character_Data cData = null;
+
     private void Awake()
     {
         m_spriteRenderer = GetComponent<SpriteRenderer>();
@@ -27,6 +29,10 @@ public class Character : MonoBehaviour, IHackable
         m_controller = GetComponent<CharacterController2D>();
         m_shootingBehavior = GetComponent <CharacterShooting>();
         gameObject.AddComponent<CharacterScoring>();
+
+        cData = GameDataManager.Instance.CharacterData;
+        m_spriteRenderer.enabled = cData.uVisible;
+        run_speed = cData.uSpeed;
     }
 
     void Update()
@@ -43,16 +49,19 @@ public class Character : MonoBehaviour, IHackable
     {
         switch(data)
         {
-            case "invisible":
+            case "visible":
                 if (value == null)
                     m_spriteRenderer.enabled = !m_spriteRenderer.enabled;
                 else
                     m_spriteRenderer.enabled = value;
+
+                cData.uVisible = m_spriteRenderer.enabled;
                 break;
 
-            //case "speed":
-            //    m_controller.
-            //    break;
+            case "speed":
+                run_speed = value;
+                cData.uSpeed = value;
+                break;
 
             default:
                 break;

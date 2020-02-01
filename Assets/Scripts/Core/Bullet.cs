@@ -17,10 +17,19 @@ public class Bullet : MonoBehaviour, IHackable
 
     private Character m_owner = null;
 
+    private Bullet_Data bData = null;
+
     private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
         m_spriteRenderer = GetComponent<SpriteRenderer>();
+
+        bData = GameDataManager.Instance.BulletData;
+
+        m_projectileSize = bData.uSize;
+        m_projectileSpeed = bData.uSpeed;
+        m_spriteRenderer.enabled = bData.uVisible;
+        m_ricochet = bData.uRicochet;
     }
 
     public void ComputeHackFromString(string data, dynamic value)
@@ -28,16 +37,19 @@ public class Bullet : MonoBehaviour, IHackable
 
         switch(data)
         {
-            case "invisible":
+            case "visible":
                 if (value == null)
                     m_spriteRenderer.enabled = !m_spriteRenderer.enabled;
                 else
                     m_spriteRenderer.enabled = value;
+
+                bData.uVisible = m_spriteRenderer.enabled;
+
                 break;
 
             case "speed":
                 m_projectileSpeed = value;
-                Fire(m_dir, m_owner);
+                bData.uSpeed = value;
                 break;
 
             default:
