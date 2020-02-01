@@ -23,8 +23,7 @@ public class Gimmick_WallMove : MonoBehaviour
                 var y = collision.gameObject.transform.position.y;
 
                 if (movePositionVector.x != 0) x = x * (-1) + movePositionVector.x;
-                else if (movePositionVector.y > 0) y = y * (-1) + movePositionVector.y;
-                else y = y * (-1);
+                else y = y * (-1) + movePositionVector.y;
 
                 collision.gameObject.transform.position = new Vector2(x, y);
             }
