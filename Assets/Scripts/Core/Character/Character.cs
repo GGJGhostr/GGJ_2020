@@ -18,6 +18,8 @@ public class Character :MonoBehaviour
     [SerializeField] private float gravity = 100.0f;
     [SerializeField] private float baseGravity = -50f;
     [SerializeField] private bool terminalGravity = false;
+    [SerializeField] private float moveJumpingForce = 0.3f;
+    [SerializeField] private bool moveJumping = false;
     private bool jumpTruth = true;
 
     private Rigidbody2D rigidbody2d;
@@ -28,11 +30,19 @@ public class Character :MonoBehaviour
     public float smooth = 0.01f;
     public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
 
+    [SerializeField]private bool changeGrabityUPDOWN = false;
+
     //action
 
     //new type
     public void Move(Vector3 vector)
     {
+        if (changeGrabityUPDOWN)
+        {
+            vector = new Vector3(vector.x, vector.y * -1.0f, 0);
+            this.gameObject.transform.rotation = new Quaternion(180, 0, 0, 0);
+        }
+        else if (this.gameObject.transform.rotation.x != 0) this.gameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
         rigidbody2d.MovePosition(this.gameObject.transform.position+vector);
     }
 
@@ -52,9 +62,8 @@ public class Character :MonoBehaviour
             var vector = velocity * Time.deltaTime;
             Move(vector);
             if (velocity.y < 0 && !child.activeInHierarchy) child.SetActive(true);
-            if (velocity.y < baseGravity&&terminalGravity)return;
-            velocity = new Vector2(velocity.x, velocity.y - gravity * Time.deltaTime);
-            return;
+            velocity =(velocity.y < baseGravity && terminalGravity)?velocity: new Vector2(velocity.x, velocity.y - gravity * Time.deltaTime);
+            if (!moveJumping) return;
         }
         else if (!child.activeInHierarchy && velocity.y != 0) velocity = Vector2.zero;
 
@@ -67,8 +76,9 @@ public class Character :MonoBehaviour
         }
         else if (player_state.LeftStickAxis != Vector2.zero)
         {
-            var puls = (player_state.LeftStickAxis.x < 0) ? -1 : 1;
-            velocity = new Vector3(Mathf.Lerp(baseSpeed*puls, walk * puls, deleteTime / initialTime), velocity.y, 0);
+            var plus = (player_state.LeftStickAxis.x < 0) ? -1.0f : 1.0f;
+            if (!groundingDecision.Ground) plus *= moveJumpingForce;
+            velocity = new Vector3(Mathf.Lerp(baseSpeed*plus, walk * plus, deleteTime / initialTime), velocity.y, 0);
             if (initialTime > deleteTime) deleteTime += Time.deltaTime;
             var vector = velocity * Time.deltaTime;
             Move(vector);
