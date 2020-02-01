@@ -55,12 +55,17 @@ namespace Ghostr
 
         public void OnWin(Character winner)
         {
+            PlayerManager.RegisterCharacterReference();
+            ScoringManager.RegisterCharacterScore();
+            PlayerManager.ClearPlayer();
+            SceneHandler.ChangeScene("FinalScreen");
+        }
+
+        public void GoToMenu()
+        {
+            ScoringManager.ResetScore();
             PlayerManager.ClearPlayer();
             SceneHandler.ChangeScene("MainScreen");
-         
-            // TODO:
-            // Display Win Screen
-            // Clear player at the end of the WinScreen
         }
 
 
