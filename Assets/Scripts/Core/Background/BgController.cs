@@ -25,7 +25,8 @@ public class BgController : MonoBehaviour
         startPos[idx] = new Vector3(cloud_x, cloud_y, 0.0f);
         cloud_obj[idx].transform.position = startPos[idx];
     }
-    void Awake()
+
+    private void init()
     {
         cloud_obj = new GameObject[cloud_prefab.Length * cloud_num_scale];
         startPos = new Vector3[cloud_prefab.Length * cloud_num_scale];
@@ -35,9 +36,18 @@ public class BgController : MonoBehaviour
             RandCloudPos(i);
         }
     }
+    void Awake()
+    {
+        init();
+    }
 
     private void UpdateCloudPos()
     {
+        if (cloud_obj[0] == null)
+        {
+            init();
+        }
+
         for (int i = 0; i < cloud_obj.Length; i++)
         {
             float random_seed = Random.Range(cloud_random_range_speed.x, cloud_random_range_speed.y);
