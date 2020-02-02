@@ -1558,10 +1558,7 @@ MonoBehaviour:
   player_idx: 1
   player_idxtwo: 2
   loadings: {fileID: 1740793237}
-<<<<<<< HEAD
   scene_name: Stage1
-=======
-  scene_name: CharacterSelect
 --- !u!82 &1740793240
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1673,7 +1670,6 @@ MonoBehaviour:
   delayTime: 2
   startVolume: 0
   endVolume: 1
->>>>>>> Opening_Music_Sound
 --- !u!1 &1926528058
 GameObject:
   m_ObjectHideFlags: 0

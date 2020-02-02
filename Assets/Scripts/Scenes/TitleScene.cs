@@ -13,6 +13,11 @@ public class TitleScene : MonoBehaviour
 
     public string scene_name = "MainGame";
 
+    private void Awake()
+    {
+
+    }
+
     void Update()
     {
         GamepadState player_state = GamePad.GetState(player_idx);

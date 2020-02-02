@@ -21,10 +21,10 @@ public class GameDataManager : MonoBehaviour
 
     private void Awake()
     {
-        if (FindObjectsOfType<GameDataManager>().Length > 1)
-            Destroy(gameObject);
+        //if (FindObjectsOfType<GameDataManager>().Length > 1)
+            //Destroy(gameObject);
 
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         instance = this;
 
         CreateDatas();

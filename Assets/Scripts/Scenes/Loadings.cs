@@ -16,7 +16,8 @@ public class Loadings : MonoBehaviour
     public void LoadingScene(string nextName)
     {
         nextSceneName = nextName;
-        SceneManager.LoadSceneAsync("Loading", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Loading"/*, LoadSceneMode.Additive*/);
     }
 
-}
+}  
+ 

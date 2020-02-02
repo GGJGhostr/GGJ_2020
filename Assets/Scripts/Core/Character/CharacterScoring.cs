@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class CharacterScoring : MonoBehaviour
 {
-    public int Score { get; private set; }
+    public int Score { get; set; }
 
     private ScoringManager m_scoringManager = null;
 
@@ -24,7 +24,12 @@ public class CharacterScoring : MonoBehaviour
     {
         playerSound.PlaySound_Hit();
         Score += amount;
-        m_OnScoreEvent.Invoke();
+
+        int max_score = SceneScoringHandler.Instance.MAX_SCORE;
+        if (Score >= max_score)
+            SceneScoringHandler.Instance.CheckForWinner();  
+
+        //m_OnScoreEvent.Invoke();
         //m_scoringManager.CheckScore(this);
     }
 }
