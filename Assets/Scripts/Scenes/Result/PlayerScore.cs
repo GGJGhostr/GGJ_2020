@@ -15,7 +15,7 @@ public class PlayerScore : MonoBehaviour
     private void Start()
     {
         var character = PlayerPrefs.GetInt(player_idx.ToString(),0);
-        characterImage.sprite = spriteScriptable.sprites[character];
+        //characterImage.sprite = spriteScriptable.sprites[character];
         GameObject obj = GameObject.Find("SceneHandler");
         if (obj == null)
         {
