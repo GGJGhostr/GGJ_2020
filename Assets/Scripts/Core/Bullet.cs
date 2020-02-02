@@ -20,6 +20,8 @@ public class Bullet : MonoBehaviour, IHackable
 
     private Bullet_Data bData = null;
 
+    public GameObject ExplosionPrefab= null;
+
     private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
@@ -32,6 +34,10 @@ public class Bullet : MonoBehaviour, IHackable
         m_spriteRenderer.enabled = bData.uVisible;
         m_ricochet = bData.uRicochet;
         m_traverse = bData.uTraverse;
+        if (m_traverse)
+            gameObject.layer = LayerMask.NameToLayer("ThroughWall");
+        else
+            gameObject.layer = LayerMask.NameToLayer("Bullet");
     }
 
     public void ComputeHackFromString(string data, dynamic value)
@@ -108,6 +114,10 @@ public class Bullet : MonoBehaviour, IHackable
                 scoring.incrementScore();
             }
         }
+
+        //RSL
+        Instantiate(ExplosionPrefab, transform.position, transform.rotation);
+
         Destroy(gameObject);
     }
 
