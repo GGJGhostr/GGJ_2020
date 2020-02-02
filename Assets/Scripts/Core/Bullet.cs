@@ -20,6 +20,8 @@ public class Bullet : MonoBehaviour, IHackable
 
     private Bullet_Data bData = null;
 
+    public GameObject explosion_prefab;
+
     private void Awake()
     {
         m_rigidbody2D = GetComponent<Rigidbody2D>();
@@ -112,6 +114,10 @@ public class Bullet : MonoBehaviour, IHackable
                 scoring.incrementScore();
             }
         }
+
+        //Instance prefab for explosion
+        Instantiate(explosion_prefab, transform.position, Random.rotation );
+
         Destroy(gameObject);
     }
 

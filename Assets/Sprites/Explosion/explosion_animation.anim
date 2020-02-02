@@ -17,21 +17,63 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves: []
-  m_SampleRate: 60
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: 139f82338bff2436085850cc2e3f9310, type: 3}
+    - time: 0.05
+      value: {fileID: 21300000, guid: 243fd7ae56de34021a122f352fe3ed43, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: a3a73fefb24ac47339a93455715c533e, type: 3}
+    - time: 0.15
+      value: {fileID: 21300000, guid: 5b04eaef896564ce7ba539af2a85a3a8, type: 3}
+    - time: 0.2
+      value: {fileID: 21300000, guid: f9ed81661bc414a9dbb0837568e32bfd, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: d98231b8e3db546dda9c9003edcea24a, type: 3}
+    - time: 0.3
+      value: {fileID: 21300000, guid: 9b39363a60fb04fdbb7114c309dd666e, type: 3}
+    - time: 0.35
+      value: {fileID: 21300000, guid: bf7966d85ccdc48c1884f1c4ebb633de, type: 3}
+    - time: 0.4
+      value: {fileID: 21300000, guid: d053ab4877b9841a0b26cfdb647c1e11, type: 3}
+    - time: 0.45
+      value: {fileID: 21300000, guid: 24558ed0b55494096a166cc65707a097, type: 3}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 20
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: 139f82338bff2436085850cc2e3f9310, type: 3}
+    - {fileID: 21300000, guid: 243fd7ae56de34021a122f352fe3ed43, type: 3}
+    - {fileID: 21300000, guid: a3a73fefb24ac47339a93455715c533e, type: 3}
+    - {fileID: 21300000, guid: 5b04eaef896564ce7ba539af2a85a3a8, type: 3}
+    - {fileID: 21300000, guid: f9ed81661bc414a9dbb0837568e32bfd, type: 3}
+    - {fileID: 21300000, guid: d98231b8e3db546dda9c9003edcea24a, type: 3}
+    - {fileID: 21300000, guid: 9b39363a60fb04fdbb7114c309dd666e, type: 3}
+    - {fileID: 21300000, guid: bf7966d85ccdc48c1884f1c4ebb633de, type: 3}
+    - {fileID: 21300000, guid: d053ab4877b9841a0b26cfdb647c1e11, type: 3}
+    - {fileID: 21300000, guid: 24558ed0b55494096a166cc65707a097, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -50,4 +92,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0.5
+    functionName: DestroyThisPrefab
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
