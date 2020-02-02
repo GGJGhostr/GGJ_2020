@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class StageSelect : MonoBehaviour
 {
     [SerializeField] private List<CharacterSelectManager> characterSelects = new List<CharacterSelectManager>();
-    private bool stageSelect = false;
+    private bool stageSelect = true;
 
     public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
     public GamePad.PlayerIndex player_idxtwo = GamePad.PlayerIndex.Two;
@@ -36,12 +36,12 @@ public class StageSelect : MonoBehaviour
             StageSelectUpdatte();
             return;
         }
-        var notChanged = false;
-        foreach (CharacterSelectManager character in characterSelects)
-        {
-            if (!character.EndSelect) notChanged = true;
-        }
-        if (!notChanged) if (!player_state.B && !player_statetwo.B)stageSelect = true;
+        //var notChanged = false;
+        //foreach (CharacterSelectManager character in characterSelects)
+        //{
+        //    if (!character.EndSelect) notChanged = true;
+        //}
+        //if (!notChanged) if (!player_state.B && !player_statetwo.B)stageSelect = true;
     }
 
     private void StageSelectUpdatte()
@@ -53,18 +53,18 @@ public class StageSelect : MonoBehaviour
         {
             LoadBattleStage(strings.strings[selectStageNumber]);
         }
-        else if ((player_state.LeftStickAxis.x != 0|| player_statetwo.LeftStickAxis.x != 0)&&select)
-        {
-            if(player_state.LeftStickAxis.x != 0) selectStageNumber += (player_state.LeftStickAxis.x > 0) ? 1 : -1;
-            if (player_statetwo.LeftStickAxis.x != 0) selectStageNumber += (player_statetwo.LeftStickAxis.x > 0) ? 1 : -1;
+        //else if ((player_state.LeftStickAxis.x != 0|| player_statetwo.LeftStickAxis.x != 0)&&select)
+        //{
+        //    if(player_state.LeftStickAxis.x != 0) selectStageNumber += (player_state.LeftStickAxis.x > 0) ? 1 : -1;
+        //    if (player_statetwo.LeftStickAxis.x != 0) selectStageNumber += (player_statetwo.LeftStickAxis.x > 0) ? 1 : -1;
 
-            if (selectStageNumber < 0) selectStageNumber = strings.strings.Length-1;
-            else if (selectStageNumber >= strings.strings.Length) selectStageNumber = 0;
-            stagename.text = strings.strings[selectStageNumber];
-            select = false;
-            return;
-        }
-        if (player_state.LeftStickAxis.x == 0 && player_statetwo.LeftStickAxis.x == 0) select = true;
+        //    if (selectStageNumber < 0) selectStageNumber = strings.strings.Length-1;
+        //    else if (selectStageNumber >= strings.strings.Length) selectStageNumber = 0;
+        //    stagename.text = strings.strings[selectStageNumber];
+        //    select = false;
+        //    return;
+        //}
+        //if (player_state.LeftStickAxis.x == 0 && player_statetwo.LeftStickAxis.x == 0) select = true;
 
     }
     private void LoadBattleStage(string name)

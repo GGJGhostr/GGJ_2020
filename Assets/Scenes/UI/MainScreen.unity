@@ -915,7 +915,7 @@ RectTransform:
   m_Children:
   - {fileID: 1007995234}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1538,7 +1538,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1740793239
 MonoBehaviour:
@@ -1555,7 +1555,7 @@ MonoBehaviour:
   player_idx: 1
   player_idxtwo: 2
   loadings: {fileID: 1740793237}
-  scene_name: Stage1
+  scene_name: CharacterSelect
 --- !u!1 &1926528058
 GameObject:
   m_ObjectHideFlags: 0
