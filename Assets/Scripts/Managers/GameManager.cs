@@ -55,6 +55,10 @@ namespace Ghostr
 
         public void OnWin(Character winner)
         {
+            //! record the winner info
+            //! edit by Wang
+            PlayerConfig.winner = winner;
+
             PlayerManager.RegisterCharacterReference();
             ScoringManager.RegisterCharacterScore();
             PlayerManager.ClearPlayer();
