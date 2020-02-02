@@ -32,6 +32,10 @@ public class Bullet : MonoBehaviour, IHackable
         m_spriteRenderer.enabled = bData.uVisible;
         m_ricochet = bData.uRicochet;
         m_traverse = bData.uTraverse;
+        if (m_traverse)
+            gameObject.layer = LayerMask.NameToLayer("ThroughWall");
+        else
+            gameObject.layer = LayerMask.NameToLayer("Bullet");
     }
 
     public void ComputeHackFromString(string data, dynamic value)
