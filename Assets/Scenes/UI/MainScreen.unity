@@ -822,6 +822,7 @@ MonoBehaviour:
   tex_start: {fileID: 744010301}
   tex_restart: {fileID: 0}
   img_title: {fileID: 821250385}
+  img_final: {fileID: 0}
 --- !u!1 &947531075
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,7 +1555,7 @@ MonoBehaviour:
   player_idx: 1
   player_idxtwo: 2
   loadings: {fileID: 1740793237}
-  scene_name: CharacterSelect
+  scene_name: Stage1
 --- !u!1 &1926528058
 GameObject:
   m_ObjectHideFlags: 0
