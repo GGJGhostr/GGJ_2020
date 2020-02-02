@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using GamepadInput;
 
-public class Character : MonoBehaviour
+public class Character : MonoBehaviour, IHackable
 {
-    CharacterController2D m_controller = null;
+    private SpriteRenderer m_spriteRenderer = null;
+    private CharacterScoring m_scoring = null;
+
     float horizontal_move = 0f;
     public float run_speed = 40f;
     private bool is_jumping = false;
-    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
 
     private bool m_timerNeedUpdate = false;
     private float m_shootTimer = 1f;
@@ -18,10 +19,23 @@ public class Character : MonoBehaviour
     private CharacterShooting m_shootingBehavior = null;
     private bool has_shooted = false;
 
+    private CharacterMovementB m_movement = null;
+    private Character_Data cData = null;
+
     private void Awake()
     {
-        m_controller = GetComponent<CharacterController2D>();
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
+
         m_shootingBehavior = GetComponent <CharacterShooting>();
+        m_scoring = GetComponent<CharacterScoring>();
+        m_movement = GetComponent<CharacterMovementB>();
+    }
+
+    private void Start()
+    {
+        cData = GameDataManager.Instance.CharacterData;
+        m_spriteRenderer.enabled = cData.uVisible;
+        run_speed = cData.uSpeed;
     }
 
     void Update()
@@ -29,9 +43,31 @@ public class Character : MonoBehaviour
         if (m_timerNeedUpdate)
             UpdateTimer();
 
-        GamepadState player_state = GamePad.GetState(player_idx);
+        GamepadState player_state = GamePad.GetState(m_movement.player_idx);
         ComputeCharacterInputAction(player_state);
-        horizontal_move = player_state.LeftStickAxis.x * run_speed;
+    }
+
+    public void ComputeHackFromString(string data, dynamic value)
+    {
+        switch(data)
+        {
+            case "visible":
+                if (value == null)
+                    m_spriteRenderer.enabled = !m_spriteRenderer.enabled;
+                else
+                    m_spriteRenderer.enabled = value;
+
+                cData.uVisible = m_spriteRenderer.enabled;
+                break;
+
+            case "speed":
+                run_speed = value;
+                cData.uSpeed = value;
+                break;
+
+            default:
+                break;
+        }
     }
 
     private void UpdateTimer()
@@ -47,9 +83,7 @@ public class Character : MonoBehaviour
 
     private void ComputeCharacterInputAction(GamepadState player_state)
     {
-        is_jumping = player_state.A;
-
-        if (player_state.B && !has_shooted)
+        if (player_state.RightTrigger > 0f && !has_shooted)
         {
             has_shooted = true;
             m_timerNeedUpdate = true;
@@ -57,9 +91,4 @@ public class Character : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        m_controller.Move(horizontal_move * Time.deltaTime, false, is_jumping);
-        is_jumping = false;
-    }
 }

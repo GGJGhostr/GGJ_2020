@@ -11,11 +11,45 @@ public class CommandDataBase : MonoBehaviour
     {
         m_hackableEntityMap = new Dictionary<string, List<KeyValuePair<string, System.Type>>>();
 
-        AddTweakableValueInEntity("bullets", "speed", typeof(float), true);
-        AddTweakableValueInEntity("bullets", "damage", typeof(bool), true);
-        AddTweakableValueInEntity("bullets", "size", typeof(int), true);
+        AddTweakableValueInEntity("player", "visible", typeof(bool), true);
+        AddTweakableValueInEntity("player", "speed", typeof(int), true);
 
+        AddTweakableValueInEntity("wall", "visible", typeof(bool), true);
+
+        AddTweakableValueInEntity("bullet", "visible", typeof(bool), true);
+        AddTweakableValueInEntity("bullet", "speed", typeof(float), true);
+
+        //AddTweakableValueInEntity("gravity", "reverse", typeof(bool), true);
         PrintCommandMap();
+    }
+
+    public List<string> GetAllHackableEntityFromDB()
+    {
+        var map_enumerator = m_hackableEntityMap.GetEnumerator();
+        List<string> entities = new List<string>();
+
+        while(map_enumerator.MoveNext())
+        {
+            var current = map_enumerator.Current;
+            entities.Add(current.Key);
+        }
+
+        return entities;
+    }
+
+    public List<string> GetAllTweakableNameOfEntityFromDB(string entity_name)
+    {
+        List<KeyValuePair<string, System.Type>> pairs;// = new List<string>();
+        m_hackableEntityMap.TryGetValue(entity_name, out pairs);
+
+        List<string> names = new List<string>();
+
+        foreach (KeyValuePair<string, System.Type> pair in pairs)
+        {
+            names.Add(pair.Key);
+        }
+
+        return names;
     }
 
     public KeyValuePair<string, System.Type>? GetTweakableValuePair(string entity_name, string tweakable_value)
@@ -113,7 +147,7 @@ public class CommandDataBase : MonoBehaviour
         System.Type to_return = null;
         switch (name)
         {
-            case "bullets":
+            case "bullet":
                 to_return = typeof(PLACEHOLDER.Bullets);
                 break;
 
