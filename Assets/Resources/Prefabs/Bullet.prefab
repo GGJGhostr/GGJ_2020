@@ -126,6 +126,9 @@ MonoBehaviour:
   m_projectileSize: 1
   m_timer: 10
   m_ricochet: 0
+  m_traverse: 0
+  ExplosionPrefab: {fileID: 991626389027675198, guid: 731789de9f40b4c06991cfb7d45cb8ea,
+    type: 3}
 --- !u!50 &7809986274246700138
 Rigidbody2D:
   serializedVersion: 4
