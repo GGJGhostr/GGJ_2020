@@ -59,6 +59,10 @@ public class CharacterShooting : MonoBehaviour
         Quaternion quat = Quaternion.AngleAxis(angle, Vector3.forward);
         GameObject clone = Instantiate(m_bulletPrefab, spawner_pos, quat);
         clone.GetComponent<Bullet>().Fire(dir, GetComponent<Character>());
+
+        PlayerSound pl_s = GetComponent<PlayerSound>();
+        pl_s.playShoot();
+
         //bullet.Fire(dir);
     }
 }
