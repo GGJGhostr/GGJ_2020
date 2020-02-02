@@ -18,7 +18,7 @@ public static class LangConfig
 
     public static string[] START_STR = { "-PRESS ANY BUTTON-", "-任意のボタンを押す-", "-APPUYER SUR UN BOUTON-", "-请按下任意按键-" };
     public static string[] RESTART_STR = { "Restart", "再スタート", "redémarrer" };
-    public static string[] TITLE_IMAGE_PATH = { "Textures/title", "Textures/title_jp" };
+    public static string[] TITLE_IMAGE_PATH = { "Texture/title", "Texture/title_jp" };
 }
 
 public class LangController : MonoBehaviour
@@ -35,7 +35,7 @@ public class LangController : MonoBehaviour
     {
         if (tex_start != null) tex_start.text = LangConfig.START_STR[(int)LangConfig.lang];
         if (tex_restart != null) tex_restart.text = LangConfig.RESTART_STR[(int)LangConfig.lang];
-        //if (img_title != null) img_title.Image = Resources.Load<Image>(LangConfig.TITLE_IMAGE_PATH[(int)LangConfig.lang]);
+        if (img_title != null) img_title.sprite = Resources.Load<Sprite>(LangConfig.TITLE_IMAGE_PATH[(int)LangConfig.lang]);
 
     }
 
