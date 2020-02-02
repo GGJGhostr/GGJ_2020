@@ -1,0 +1,583 @@
+fileFormatVersion: 2
+guid: 01d71383d763dcf4bb671b7cdeaecc9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1691338454939999926
+    second: Chara1_Arm_L
+  - first:
+      213: -3942794011525697029
+    second: Chara1_Arm_R
+  - first:
+      213: 4937978870478492822
+    second: Chara1_Head
+  - first:
+      213: 2885247574442926807
+    second: Chara1_Eyes_0
+  - first:
+      213: 3949821088808098168
+    second: Chara1_Forearm_L
+  - first:
+      213: -6706056756209377644
+    second: Chara1_Forearm_R
+  - first:
+      213: 1165969914188462377
+    second: Chara1_Bracelet_down
+  - first:
+      213: 7383766006726648280
+    second: Chara1_Bracelet_up
+  - first:
+      213: 7391260380697240590
+    second: Chara1_Hand_L
+  - first:
+      213: 5165040094877057296
+    second: Chara1_Hand_R
+  - first:
+      213: 9179725016371473087
+    second: Chara1_Torso
+  - first:
+      213: 5306588493547570510
+    second: Chara1_Basin_Knot
+  - first:
+      213: -8437334809521697993
+    second: Chara1_Thigh_L
+  - first:
+      213: 5555237839660808552
+    second: Chara1_Thigh_R
+  - first:
+      213: 2940705855434459057
+    second: Chara1_Ribbon_down
+  - first:
+      213: -7642377783237779780
+    second: Chara1_Ribbon_up
+  - first:
+      213: -4117532117211865057
+    second: Chara1_Calf_L
+  - first:
+      213: -5968130760955277775
+    second: Chara1_Calf_R
+  - first:
+      213: 7139340469657063320
+    second: Chara1_Foot_L
+  - first:
+      213: 2830107285918293678
+    second: Chara1_Foot_R
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chara1_Arm_L
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 886
+        width: 59
+        height: 76
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92d550427c882c4a96f0808aaabac67
+      internalID: -1691338454939999926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Arm_R
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 897
+        width: 56
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59c3470ca5bf6e4fb5c7fcb3fc85c87
+      internalID: -3942794011525697029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Head
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 820
+        width: 158
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7541eb696ab4684686db3b4abeb8ea5
+      internalID: 4937978870478492822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Eyes_0
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 881
+        width: 94
+        height: 51
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d80b4def32bb304b8fe08fde2be5a80
+      internalID: 2885247574442926807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Forearm_L
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 793
+        width: 42
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4bc4b3fe04f244d911493fc76e5eae
+      internalID: 3949821088808098168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Forearm_R
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 793
+        width: 57
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9811d3c3b8f783147b45b6f625794ffd
+      internalID: -6706056756209377644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Bracelet_down
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 788
+        width: 48
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a744c62a093db64bb8c8d057b65d499
+      internalID: 1165969914188462377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Bracelet_up
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 787
+        width: 58
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef00191cff9cee142a3ded071a524184
+      internalID: 7383766006726648280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Hand_L
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 721
+        width: 49
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9ed88e9a1dfe644a65b51fddde9e83
+      internalID: 7391260380697240590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Hand_R
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 722
+        width: 61
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a130b022b7e27a94587187b62c12c6a5
+      internalID: 5165040094877057296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Torso
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 625
+        width: 106
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da21bee297edb65479ef2a05815803c0
+      internalID: 9179725016371473087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Basin_Knot
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 724
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c3ae62559069645a659466dc0b2631
+      internalID: 5306588493547570510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Thigh_L
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 459
+        width: 141
+        height: 185
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279c942d59300348804e4d57c4d016a
+      internalID: -8437334809521697993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Thigh_R
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 458
+        width: 139
+        height: 194
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0bd564552cbef459697962fb695bb4
+      internalID: 5555237839660808552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Ribbon_down
+      rect:
+        serializedVersion: 2
+        x: 781.7152
+        y: 586
+        width: 73.45575
+        height: 118
+      alignment: 9
+      pivot: {x: 0.46674073, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5738d39df98f89b41b4a2135dfdf2311
+      internalID: 2940705855434459057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Ribbon_up
+      rect:
+        serializedVersion: 2
+        x: 841.6726
+        y: 591.78754
+        width: 76.80853
+        height: 94.42407
+      alignment: 9
+      pivot: {x: 0.50550884, y: 0.5052998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d3965180cc509459225d086b525d71
+      internalID: -7642377783237779780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Calf_L
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 260
+        width: 92
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adee0d5bc564c14381b6e6501010248
+      internalID: -4117532117211865057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Calf_R
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 249
+        width: 79
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb12c9199b1bf79439be93f69224bbc8
+      internalID: -5968130760955277775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Foot_L
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 153
+        width: 81
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6193ccd4db4a090458da69fe9d6c1289
+      internalID: 7139340469657063320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chara1_Foot_R
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 153
+        width: 84
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebe6d3993a745049be4f29b6b49a30b
+      internalID: 2830107285918293678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 637161970758923381
+  assetBundleName: 
+  assetBundleVariant: 

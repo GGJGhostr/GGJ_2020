@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7957828518681330890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e715ea371f114f4a8d2584ad476634d, type: 3}
+  m_Name: Chara1_Ribbon_up_Data
+  m_EditorClassIdentifier: 
+  m_PivotPoint: {x: 880.5, y: 639.5}
+  m_Vertices:
+  - {x: 882.59454, y: 681.2116}
+  - {x: 913.48114, y: 613.23425}
+  - {x: 912, y: 636}
+  - {x: 874.79095, y: 597.78845}
+  - {x: 850, y: 681}
+  - {x: 846.6726, y: 673.6524}
+  - {x: 856.19403, y: 659.67505}
+  - {x: 863.1154, y: 625.5633}
+  - {x: 895.48816, y: 659.4171}
+  - {x: 894.4303, y: 596.78754}
+  m_BoneWeights:
+  - weight0: 1
+    weight1: 0
+    weight2: -0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 1
+    boneIndex2: 2
+    boneIndex3: 0
+  - weight0: 0.85920846
+    weight1: 0.14079118
+    weight2: 0.00000036583816
+    weight3: 0
+    boneIndex0: 2
+    boneIndex1: 1
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 0.6950884
+    weight1: 0.29166383
+    weight2: 0.013247763
+    weight3: 0
+    boneIndex0: 1
+    boneIndex1: 2
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 0.99919105
+    weight1: 0.00080893555
+    weight2: 0
+    weight3: 0
+    boneIndex0: 2
+    boneIndex1: 0
+    boneIndex2: 1
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: -0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 1
+    boneIndex2: 2
+    boneIndex3: 0
+  - weight0: 1
+    weight1: 0
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 1
+    boneIndex2: 2
+    boneIndex3: 0
+  - weight0: 0.9761919
+    weight1: 0.023808101
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 1
+    boneIndex2: 2
+    boneIndex3: 0
+  - weight0: 0.74414563
+    weight1: 0.21709
+    weight2: 0.038764402
+    weight3: 0
+    boneIndex0: 1
+    boneIndex1: 2
+    boneIndex2: 0
+    boneIndex3: 0
+  - weight0: 0.63622594
+    weight1: 0.36377403
+    weight2: 0
+    weight3: 0
+    boneIndex0: 0
+    boneIndex1: 1
+    boneIndex2: 2
+    boneIndex3: 0
+  - weight0: 0.99997365
+    weight1: 0.000026373546
+    weight2: 0
+    weight3: 0
+    boneIndex0: 2
+    boneIndex1: 0
+    boneIndex2: 1
+    boneIndex3: 0
+  m_Edges:
+  - index1: 6
+    index2: 5
+  - index1: 4
+    index2: 5
+  - index1: 0
+    index2: 4
+  - index1: 2
+    index2: 1
+  - index1: 6
+    index2: 7
+  - index1: 3
+    index2: 7
+  - index1: 2
+    index2: 8
+  - index1: 0
+    index2: 8
+  - index1: 1
+    index2: 9
+  - index1: 3
+    index2: 9
+  m_Holes: []
+  m_Indices: 080000000700000006000000040000000600000005000000060000000400000000000000030000000700000009000000070000000200000001000000080000000600000000000000020000000700000008000000070000000100000009000000
+  m_BindPoses:
+  - bindPose:
+      e00: 0.15712973
+      e01: -0.31833214
+      e02: 0
+      e03: 0.14230862
+      e10: 0.31833214
+      e11: 0.15712973
+      e12: 0
+      e13: -0.0058262944
+      e20: 0
+      e21: 0
+      e22: 0.355
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    boneLength: 0.12672913
+    path: Ribbon_U1
+    name: Ribbon_U1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    zOrder: 0
+  - bindPose:
+      e00: 0.10898246
+      e01: -0.33785784
+      e02: 0
+      e03: 0.016263159
+      e10: 0.33785784
+      e11: 0.10898246
+      e12: 0
+      e13: -0.0034899074
+      e20: 0
+      e21: 0
+      e22: 0.355
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    boneLength: 0.079614684
+    path: Ribbon_U1/Ribbon_U2
+    name: Ribbon_U2
+    color: {r: 1, g: 0.75, b: 0, a: 1}
+    zOrder: 0
+  - bindPose:
+      e00: 0.08417018
+      e01: -0.34487748
+      e02: 0
+      e03: -0.06293093
+      e10: 0.34487748
+      e11: 0.08417018
+      e12: 0
+      e13: -0.008079379
+      e20: 0
+      e21: 0
+      e22: 0.355
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    boneLength: 0.06
+    path: Ribbon_U1/Ribbon_U2/Ribbon_U3
+    name: Ribbon_U3
+    color: {r: 0.5, g: 1, b: 0, a: 1}
+    zOrder: 0
+  m_Blendshapes: []
+--- !u!43 &-4969480817992162161
+Mesh:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chara1_Ribbon_up
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 24
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 10
+    localAABB:
+      m_Center: {x: -0.004231259, y: -0.005004272, z: 0}
+      m_Extent: {x: 0.33404267, y: 0.42212033, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose:
+  - e00: 0.15712973
+    e01: -0.31833214
+    e02: 0
+    e03: 0.14230862
+    e10: 0.31833214
+    e11: 0.15712973
+    e12: 0
+    e13: -0.0058262944
+    e20: 0
+    e21: 0
+    e22: 0.355
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.10898246
+    e01: -0.33785784
+    e02: 0
+    e03: 0.016263159
+    e10: 0.33785784
+    e11: 0.10898246
+    e12: 0
+    e13: -0.0034899074
+    e20: 0
+    e21: 0
+    e22: 0.355
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  - e00: 0.08417018
+    e01: -0.34487748
+    e02: 0
+    e03: -0.06293093
+    e10: 0.34487748
+    e11: 0.08417018
+    e12: 0
+    e13: -0.008079379
+    e20: 0
+    e21: 0
+    e22: 0.355
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB:
+  - m_Min: {x: -0.03772378, y: -0.089541264, z: 0}
+    m_Max: {x: 0.30016476, y: 0.088948786, z: 0}
+  - m_Min: {x: -0.07838907, y: -0.07741365, z: 0}
+    m_Max: {x: 0.1409477, y: 0.09912093, z: 0}
+  - m_Min: {x: -0.029499002, y: -0.07976544, z: 0}
+    m_Max: {x: 0.0960999, y: 0.09761107, z: 0}
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 080007000600040006000500060004000000030007000900070002000100080006000000020007000800070001000900
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 10
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 1
+      offset: 0
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 2
+      offset: 0
+      format: 0
+      dimension: 4
+    - stream: 2
+      offset: 16
+      format: 10
+      dimension: 4
+    m_DataSize: 800
+    _typelessdata: c395ab3c3d90d53e000000000000000000000000000080bf0000803f1ba8b8b100000000000080bf0adda83e0a7b86be000000000000000000000000000080bf0000803fb9a32d3100000000000080bfae47a13e295c0fbd000000000000000000000000000080bf0000803f4c3e02b100000000000080bfaed769bd2990d5be000000000000000000000000000080bf0000803f1549aa3300000000000080bff6289cbee17ad43e000000000000000000000000000080bf0000803f66230fb100000000000080bf3d32adbe3ddcae3e000000000000000000000000000080bf0000803f60320e3400000000000080bfa4e478beae974e3e000000000000000000000000000080bf0000803f914e67b100000000000080bfa40432be3db60ebe000000000000000000000000000080bf0000803feb5ac43100000000000080bf8f7a193e85f34b3e000000000000000000000000000080bf0000803f6bafc2b000000000000080bf71a50e3e14b0dabe000000000000000000000000000080bf0000803f8bf4ba3200000000000080bf0da65c3f8b4d2a3fcb5e643ffe4e193f0000643f00001f3f9fb25a3f7672153f0080543f00402a3f0cab533fc169283f6b0c563f34eb243f63c7573f0d641c3f3edf5f3fb2da243f8a9b5f3f6732153f0000803f0000000000000080000000000000000001000000020000000000000016f55b3f902b103e6a68c434000000000200000001000000000000000000000050f1313ff654953e250d593c0000000001000000020000000000000000000000fcca7f3fbf0e543a0000000000000000020000000000000001000000000000000000803f000000000000008000000000000000000100000002000000000000000000803f00000000000000000000000000000000010000000200000000000000b6e7793f3509c33c00000000000000000000000001000000020000000000000054803e3fd74c5e3e6cc71e3d0000000001000000020000000000000000000000b4df223f9740ba3e00000000000000000000000001000000020000000000000046fe7f3fc23cdd37000000000000000002000000000000000100000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -0.004231259, y: -0.005004272, z: 0}
+    m_Extent: {x: 0.33404267, y: 0.42212033, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10c0be6d28fe4d539c4a39822fe301c, type: 3}
+  m_Name: Chara1_Ribbon_up
+  m_EditorClassIdentifier: 
+  m_ApiVersion: 4
+  m_Sprite: {fileID: -7642377783237779780, guid: 01d71383d763dcf4bb671b7cdeaecc9d,
+    type: 3}
+  m_SharedMesh: {fileID: -4969480817992162161}
+  m_SharedMaterials: []
