@@ -27,6 +27,7 @@ public class OpenCommandMenu : MonoBehaviour
             CommandLister.SetActive(true);
 
             EventSystem.current.SetSelectedGameObject(cmdZone);
+            CommandLister.GetComponent<CommandListerPannel>().UpdateCommandListing("");
         }
 
     }
