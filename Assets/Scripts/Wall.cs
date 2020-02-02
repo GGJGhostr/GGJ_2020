@@ -9,7 +9,7 @@ public class Wall : MonoBehaviour, IHackable
     private TilemapRenderer m_renderer = null;
     private Wall_Data wData = null;
 
-    private void Awake()
+    private void Start()
     {
         m_renderer = GetComponent<TilemapRenderer>();
 
