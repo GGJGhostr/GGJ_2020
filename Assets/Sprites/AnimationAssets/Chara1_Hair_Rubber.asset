@@ -42,14 +42,14 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose:
-  - e00: 0.16336091
-    e01: -0.31517977
+  - e00: 0.17820977
+    e01: -0.30702817
     e02: 0
-    e03: -0.0018648696
-    e10: 0.31517977
-    e11: 0.16336091
+    e03: 0.010975117
+    e10: 0.30702817
+    e11: 0.17820977
     e12: 0
-    e13: -0.020980993
+    e13: -0.019542133
     e20: 0
     e21: 0
     e22: 0.355
@@ -61,8 +61,8 @@ Mesh:
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB:
-  - m_Min: {x: -0.2655905, y: -0.27817217, z: 0}
-    m_Max: {x: 0.25205907, y: 0.23621018, z: 0}
+  - m_Min: {x: -0.255562, y: -0.27895087, z: 0}
+    m_Max: {x: 0.26681966, y: 0.23986661, z: 0}
   m_VariableBoneCountWeights:
     m_Data: 
   m_MeshCompression: 0
@@ -306,14 +306,14 @@ MonoBehaviour:
   m_Indices: 070000000600000004000000050000000400000006000000030000000400000005000000010000000400000003000000000000000100000003000000020000000100000000000000
   m_BindPoses:
   - bindPose:
-      e00: 0.16336091
-      e01: -0.31517977
+      e00: 0.17820977
+      e01: -0.30702817
       e02: 0
-      e03: -0.0018648696
-      e10: 0.31517977
-      e11: 0.16336091
+      e03: 0.010975117
+      e10: 0.30702817
+      e11: 0.17820977
       e12: 0
-      e13: -0.020980993
+      e13: -0.019542133
       e20: 0
       e21: 0
       e22: 0.355
@@ -322,9 +322,9 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    boneLength: 0.17011452
-    path: Torso/Neck/Head/Fringe/HairBack_1/HairBack_2/HairBack_3/HairBack_4
-    name: HairBack_4
+    boneLength: 0.20599474
+    path: Torso/Neck/Head/Fringe/HairBack1/HairBack2/HairBack3/HairBack4
+    name: HairBack4
     color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 0
   m_Blendshapes: []

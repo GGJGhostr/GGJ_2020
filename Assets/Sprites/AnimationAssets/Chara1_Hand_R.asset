@@ -25,14 +25,14 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose:
-  - e00: 0.3138623
-    e01: -0.16587804
+  - e00: 0.35325962
+    e01: -0.035110552
     e02: 0
-    e03: 0.06332988
-    e10: 0.16587804
-    e11: 0.3138623
+    e03: 0.06775484
+    e10: 0.035110552
+    e11: 0.35325962
     e12: 0
-    e13: 0.004544984
+    e13: -0.004027589
     e20: 0
     e21: 0
     e22: 0.355
@@ -44,8 +44,8 @@ Mesh:
   m_BoneNameHashes: 
   m_RootBoneNameHash: 0
   m_BonesAABB:
-  - m_Min: {x: -0.039927922, y: -0.08169464, z: 0}
-    m_Max: {x: 0.16658768, y: 0.0907846, z: 0}
+  - m_Min: {x: -0.027241834, y: -0.06243713, z: 0}
+    m_Max: {x: 0.16275153, y: 0.054381948, z: 0}
   m_VariableBoneCountWeights:
     m_Data: 
   m_MeshCompression: 0
@@ -262,14 +262,14 @@ MonoBehaviour:
   m_Indices: 000000000100000002000000020000000100000003000000
   m_BindPoses:
   - bindPose:
-      e00: 0.3138623
-      e01: -0.16587804
+      e00: 0.35325962
+      e01: -0.035110552
       e02: 0
-      e03: 0.06332988
-      e10: 0.16587804
-      e11: 0.3138623
+      e03: 0.06775484
+      e10: 0.035110552
+      e11: 0.35325962
       e12: 0
-      e13: 0.004544984
+      e13: -0.004027589
       e20: 0
       e21: 0
       e22: 0.355
@@ -278,7 +278,7 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    boneLength: 0.1
+    boneLength: 0.08
     path: Torso/Neck/Arm_R/Forearm_R/Hand_R
     name: Hand_R
     color: {r: 1, g: 0, b: 0, a: 1}
