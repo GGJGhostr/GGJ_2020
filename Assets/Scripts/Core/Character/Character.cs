@@ -26,7 +26,7 @@ public class Character : MonoBehaviour, IHackable
     {
         m_spriteRenderer = GetComponent<SpriteRenderer>();
 
-        m_shootingBehavior = GetComponent <CharacterShooting>();
+        m_shootingBehavior = GetComponent<CharacterShooting>();
         m_scoring = GetComponent<CharacterScoring>();
         m_movement = GetComponent<CharacterMovementB>();
     }
@@ -49,7 +49,7 @@ public class Character : MonoBehaviour, IHackable
 
     public void ComputeHackFromString(string data, dynamic value)
     {
-        switch(data)
+        switch (data)
         {
             case "visible":
                 if (value == null)
@@ -73,7 +73,7 @@ public class Character : MonoBehaviour, IHackable
     private void UpdateTimer()
     {
         m_currentTime += Time.deltaTime;
-        if(m_currentTime >= m_shootTimer)
+        if (m_currentTime >= m_shootTimer)
         {
             m_timerNeedUpdate = false;
             m_currentTime = 0f;
