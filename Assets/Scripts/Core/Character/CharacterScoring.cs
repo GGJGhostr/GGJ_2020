@@ -11,6 +11,8 @@ public class CharacterScoring : MonoBehaviour
 
     public UnityEvent m_OnScoreEvent = null;
 
+    [SerializeField] private PlayerSound playerSound;
+
     private void Awake()
     {
         Score = 0;
@@ -20,6 +22,7 @@ public class CharacterScoring : MonoBehaviour
 
     public void incrementScore(int amount = 1)
     {
+        playerSound.PlaySound_Hit();
         Score += amount;
         m_OnScoreEvent.Invoke();
         //m_scoringManager.CheckScore(this);

@@ -10,6 +10,8 @@ public class CharacterShooting : MonoBehaviour
 
     CharacterMovementB  m_characterMovement = null;
 
+    [SerializeField] private PlayerSound playerSound;
+
     private void Awake()
     {
         m_characterMovement = GetComponent<CharacterMovementB>();
@@ -35,6 +37,9 @@ public class CharacterShooting : MonoBehaviour
             else if (dir.x > 0)
                 spawner_pos = m_backBulletSpawner.position;
         }
+
+
+        playerSound.PlaySound_Shoot();
 
         //if (dir.x > 0 && !is_facing_right)
         //    spawner_pos = m_backBulletSpawner.position;

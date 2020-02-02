@@ -22,7 +22,7 @@ public class ResultManager : MonoBehaviour
         {
             if (changeScene)
             {
-                loadings.LoadingScene("TitleScene");
+                loadings.LoadingScene("MainScreen");
                 GameObject obj = GameObject.Find("SceneHandler");
                 Destroy(obj);
                 changeScene = false;
