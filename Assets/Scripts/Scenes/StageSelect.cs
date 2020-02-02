@@ -69,8 +69,15 @@ public class StageSelect : MonoBehaviour
         //SceneManager.LoadScene(name);
         if (!loadingStart)
         {
-            loadings.LoadingScene(name);
-            loadingStart = true;
+            try
+            {
+                loadings.LoadingScene(name);
+                loadingStart = true;
+            }
+            catch
+            {
+
+            }
         }
     }
 }
