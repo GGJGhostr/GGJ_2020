@@ -33,6 +33,10 @@ public class CharacterMovementB : MonoBehaviour
     private bool isGrounded;
     private bool releasedA;
 
+    [SerializeField] private PlayerSound playerSound;
+    private float maxtime = 0.15f;
+    private float time = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -136,13 +140,18 @@ public class CharacterMovementB : MonoBehaviour
         if (GetGrounded())
         {
             rb.velocity = new Vector2(groundSpeed * runVector.x, rb.velocity.y);
+            if (maxtime < time&& runVector.x != 0)
+            {
+                playerSound.PlaySound_footStep(Random.Range(0, 4));
+                time = 0;
+            }
+            else time += Time.deltaTime;
         }
         else
         {
             currentAirSpeed = Mathf.Lerp(initialAirSpeed, airSpeed * runVector.x, airDrift);
             rb.velocity = new Vector2(currentAirSpeed, rb.velocity.y);
         }
-
 
     }
 
@@ -156,7 +165,7 @@ public class CharacterMovementB : MonoBehaviour
                 releasedA = false;
                 if (isGrounded)
                 {
-
+                    playerSound.PlaySound_Jump();
                     SetInitialAirSpeed(rb.velocity.x);
                     rb.velocity += jumpForce * Vector2.up;
 

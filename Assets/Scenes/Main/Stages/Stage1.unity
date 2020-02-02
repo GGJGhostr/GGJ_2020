@@ -166,9 +166,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.2
+    y: 0.12
     width: 1
-    height: 0.8
+    height: 0.88
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -230,7 +230,7 @@ PrefabInstance:
     - target: {fileID: 1862543586476813876, guid: c65ba823ac5567b49a3383d1c7ba9c3d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.7
+      value: -7.89
       objectReference: {fileID: 0}
     - target: {fileID: 1862543586476813876, guid: c65ba823ac5567b49a3383d1c7ba9c3d,
         type: 3}
@@ -354,7 +354,7 @@ PrefabInstance:
     - target: {fileID: 6897277165042909501, guid: edc6ce1eda6d54487ac4741bee77a96d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.1664515
+      value: -3.9
       objectReference: {fileID: 0}
     - target: {fileID: 6897277165042909501, guid: edc6ce1eda6d54487ac4741bee77a96d,
         type: 3}
@@ -409,12 +409,12 @@ PrefabInstance:
     - target: {fileID: 6897277165042909501, guid: edc6ce1eda6d54487ac4741bee77a96d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 6897277165042909501, guid: edc6ce1eda6d54487ac4741bee77a96d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 6897277165042909501, guid: edc6ce1eda6d54487ac4741bee77a96d,
         type: 3}
@@ -431,6 +431,12 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6897277165219762664, guid: edc6ce1eda6d54487ac4741bee77a96d,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b8d0f2efdc90d499f845d467366c3f50,
+        type: 3}
     - target: {fileID: 6897277165742490327, guid: edc6ce1eda6d54487ac4741bee77a96d,
         type: 3}
       propertyPath: m_SortingOrder
@@ -10392,6 +10398,11 @@ PrefabInstance:
       propertyPath: delayTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8997333947174337712, guid: 3a2570230df74504393c422131c1a02c,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.118
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a2570230df74504393c422131c1a02c, type: 3}
 --- !u!114 &1985149627 stripped
@@ -10418,6 +10429,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GUI
       objectReference: {fileID: 0}
+    - target: {fileID: 2645347968501455025, guid: 075c7c78347d7de4580c923fcc9b9094,
+        type: 3}
+      propertyPath: m_dataBase
+      value: 
+      objectReference: {fileID: 954834058}
     - target: {fileID: 1054698116001408937, guid: 075c7c78347d7de4580c923fcc9b9094,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10533,21 +10549,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 219527268}
-    - target: {fileID: 4865744446883951344, guid: 075c7c78347d7de4580c923fcc9b9094,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4865744446883951344, guid: 075c7c78347d7de4580c923fcc9b9094,
-        type: 3}
-      propertyPath: m_RenderMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2645347968501455025, guid: 075c7c78347d7de4580c923fcc9b9094,
-        type: 3}
-      propertyPath: m_dataBase
-      value: 
-      objectReference: {fileID: 954834058}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 075c7c78347d7de4580c923fcc9b9094, type: 3}
 --- !u!1001 &4536430188540291209
