@@ -7,17 +7,18 @@ public enum LANG_TYPE
 {
     English = 0,
     Japanese = 1,
-    French = 2
+    French = 2,
+    Chinese = 3
 }
 
 public static class LangConfig
 {
     public static LANG_TYPE lang = LANG_TYPE.English;
-    public const int MAX_LANG = 3;
+    public const int MAX_LANG = 4;
 
-    public static string[] START_STR = { "Start", "スタート", "début" };
+    public static string[] START_STR = { "-PRESS ANY BUTTON-", "-任意のボタンを押す-", "-APPUYER SUR UN BOUTON-", "-请按下任意按键-" };
     public static string[] RESTART_STR = { "Restart", "再スタート", "redémarrer" };
-    public static string[] LANG_STR = { "Lang", "言語", "langue" };
+    public static string[] TITLE_IMAGE_PATH = { "Texture/title", "Texture/title_jp" };
 }
 
 public class LangController : MonoBehaviour
@@ -27,18 +28,20 @@ public class LangController : MonoBehaviour
         ChangeUIText();
     }
     public Text tex_start;
-    public Text tex_lang;
     public Text tex_restart;
+    public Image img_title;
+
     private void ChangeUIText()
     {
         if (tex_start != null) tex_start.text = LangConfig.START_STR[(int)LangConfig.lang];
-        if (tex_lang != null) tex_lang.text = LangConfig.LANG_STR[(int)LangConfig.lang];
         if (tex_restart != null) tex_restart.text = LangConfig.RESTART_STR[(int)LangConfig.lang];
+        if (img_title != null) img_title.sprite = Resources.Load<Sprite>(LangConfig.TITLE_IMAGE_PATH[(int)LangConfig.lang]);
+
     }
 
-    public void ChangeLang()
+    public void ChangeLang(int lang_id)
     {
-        LangConfig.lang = (LANG_TYPE)(((int)LangConfig.lang + 1) % LangConfig.MAX_LANG);
+        LangConfig.lang = (LANG_TYPE)(lang_id);
         ChangeUIText();
     }
 }
