@@ -1,39 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using GamepadInput;
 
 public class Sound_Effect : MonoBehaviour
 {
-    [SerializeField] [Range(0, 1)] private float volume = 1.0f;
-    private AudioSource audioSource;
-    [SerializeField] private AudioClipScriptable clips;
-    private GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.Any;
-    // Start is called before the first frame update
-    void Start()
-    {
-        audioSource = this.gameObject.GetComponent<AudioSource>();
-        audioSource.volume = volume;
-    }
+    private static Sound_Effect instance = new Sound_Effect();
+    public static Sound_Effect Instance => instance;
 
-    // Update is called once per frame
-    void Update()
-    {
-        //debug
-        GamepadState player_state = GamePad.GetState(player_idx);
-        if (player_state.X)
-        {
-            PlayEffectSound(0);
-        }
-    }
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClipScriptable clips;
 
     public void ChangeVolume(float volumeSize)
     {
-        volume = volumeSize;
-        audioSource.volume = volume;
+        audioSource.volume = volumeSize;
     }
 
-    public void PlayEffectSound(int num)
+        public void PlayEffectSound(int num)
     {
         audioSource.PlayOneShot(clips.audioClip[num]);
     }
