@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Main/TitleScene.unity
     guid: f5d5f8e6e5e9730479a15cfbb07a4c64
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main/CharacterSelect.unity
     guid: 20baa029cc4e1b54086ccc481b823c56
   - enabled: 1
