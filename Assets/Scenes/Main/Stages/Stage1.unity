@@ -10272,6 +10272,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8997333947174337712, guid: 3a2570230df74504393c422131c1a02c,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.118
+      objectReference: {fileID: 0}
     - target: {fileID: 8997333947174337715, guid: 3a2570230df74504393c422131c1a02c,
         type: 3}
       propertyPath: delayTime
