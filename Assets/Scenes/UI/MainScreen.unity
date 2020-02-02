@@ -418,6 +418,16 @@ PrefabInstance:
       propertyPath: m_FirstSelected
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 581160451154219808, guid: 3fdedccdd55104cfeaa95223b702b577,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.638e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 581160451154219808, guid: 3fdedccdd55104cfeaa95223b702b577,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 108
+      objectReference: {fileID: 0}
     - target: {fileID: 2663901414089985509, guid: 3fdedccdd55104cfeaa95223b702b577,
         type: 3}
       propertyPath: m_IsActive
@@ -740,7 +750,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 30
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
