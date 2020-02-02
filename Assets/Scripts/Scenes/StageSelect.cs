@@ -9,8 +9,7 @@ public class StageSelect : MonoBehaviour
     [SerializeField] private List<CharacterSelectManager> characterSelects = new List<CharacterSelectManager>();
     private bool stageSelect = false;
 
-    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.One;
-    public GamePad.PlayerIndex player_idxtwo = GamePad.PlayerIndex.Two;
+    public GamePad.PlayerIndex player_idx = GamePad.PlayerIndex.Any;
 
     [SerializeField] private Text stagename;
     [SerializeField] private StringScriptable strings;
@@ -30,7 +29,6 @@ public class StageSelect : MonoBehaviour
     void Update()
     {
         GamepadState player_state = GamePad.GetState(player_idx);
-        GamepadState player_statetwo = GamePad.GetState(player_idxtwo);
         if (stageSelect)
         {
             StageSelectUpdatte();
@@ -41,22 +39,20 @@ public class StageSelect : MonoBehaviour
         {
             if (!character.EndSelect) notChanged = true;
         }
-        if (!notChanged) if (!player_state.B && !player_statetwo.B)stageSelect = true;
+        if (!notChanged) if (!player_state.B )stageSelect = true;
     }
 
     private void StageSelectUpdatte()
     {
         GamepadState player_state = GamePad.GetState(player_idx);
-        GamepadState player_statetwo = GamePad.GetState(player_idxtwo);
 
-        if (player_state.B || player_statetwo.B)
+        if (player_state.B)
         {
             LoadBattleStage(strings.strings[selectStageNumber]);
         }
-        else if ((player_state.LeftStickAxis.x != 0|| player_statetwo.LeftStickAxis.x != 0)&&select)
+        else if (player_state.LeftStickAxis.x != 0)
         {
             if(player_state.LeftStickAxis.x != 0) selectStageNumber += (player_state.LeftStickAxis.x > 0) ? 1 : -1;
-            if (player_statetwo.LeftStickAxis.x != 0) selectStageNumber += (player_statetwo.LeftStickAxis.x > 0) ? 1 : -1;
 
             if (selectStageNumber < 0) selectStageNumber = strings.strings.Length-1;
             else if (selectStageNumber >= strings.strings.Length) selectStageNumber = 0;
@@ -64,7 +60,7 @@ public class StageSelect : MonoBehaviour
             select = false;
             return;
         }
-        if (player_state.LeftStickAxis.x == 0 && player_statetwo.LeftStickAxis.x == 0) select = true;
+        if (player_state.LeftStickAxis.x == 0 ) select = true;
 
     }
     private void LoadBattleStage(string name)
