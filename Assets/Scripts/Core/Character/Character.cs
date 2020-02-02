@@ -9,7 +9,7 @@ public class Character : MonoBehaviour, IHackable
     private CharacterScoring m_scoring = null;
 
     float horizontal_move = 0f;
-    public float run_speed = 40f;
+    //public float run_speed = 40f;
     private bool is_jumping = false;
 
     private bool m_timerNeedUpdate = false;
@@ -35,7 +35,7 @@ public class Character : MonoBehaviour, IHackable
     {
         cData = GameDataManager.Instance.CharacterData;
         m_spriteRenderer.enabled = cData.uVisible;
-        run_speed = cData.uSpeed;
+        m_movement.groundSpeed = cData.uSpeed;
     }
 
     void Update()
@@ -61,7 +61,7 @@ public class Character : MonoBehaviour, IHackable
                 break;
 
             case "speed":
-                run_speed = value;
+                m_movement.groundSpeed = value;
                 cData.uSpeed = value;
                 break;
 

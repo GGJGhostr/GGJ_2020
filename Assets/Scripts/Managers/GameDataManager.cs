@@ -53,12 +53,12 @@ public class GameDataManager : MonoBehaviour
 
 public class Bullet_Data
 {
-    private const float speed = 50f;
+    private const float speed = 250f;
     private const float size = 1f;
     private const bool ricochet = false;
     private const bool visible = true;
 
-    public float uSpeed = 50f;
+    public float uSpeed = 250f;
     public float uSize = 1f;
     public bool uRicochet = false;
     public bool uVisible = true;
@@ -87,10 +87,10 @@ public class Wall_Data
 public class Character_Data
 {
     private const bool visible = true;
-    private const float speed = 40f;
+    private const float speed = 13f;
 
     public bool uVisible = true;
-    public float uSpeed = 40f;
+    public float uSpeed = 13f;
 
     public void Reset()
     {
