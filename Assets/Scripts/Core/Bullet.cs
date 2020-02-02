@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour, IHackable
     [SerializeField] float m_projectileSize = 1f;
     [SerializeField] float m_timer = 10f;
     [SerializeField] bool m_ricochet = false;
+    [SerializeField] bool m_traverse = false;
 
     private Vector2 m_dir = Vector2.zero;
     private Rigidbody2D m_rigidbody2D = null;
@@ -30,6 +31,7 @@ public class Bullet : MonoBehaviour, IHackable
         m_projectileSpeed = bData.uSpeed;
         m_spriteRenderer.enabled = bData.uVisible;
         m_ricochet = bData.uRicochet;
+        m_traverse = bData.uTraverse;
     }
 
     public void ComputeHackFromString(string data, dynamic value)
@@ -50,6 +52,24 @@ public class Bullet : MonoBehaviour, IHackable
             case "speed":
                 m_projectileSpeed = value;
                 bData.uSpeed = value;
+                break;
+
+
+            case "traverse":
+                if(value == null)
+                {
+                    m_traverse = !m_traverse;
+                    bData.uTraverse = m_traverse;
+                }
+                else
+                {
+                    m_traverse = value;
+                    bData.uTraverse = value;
+                }
+                if (m_traverse)
+                    gameObject.layer = LayerMask.NameToLayer("ThroughWall");
+                else
+                    gameObject.layer = LayerMask.NameToLayer("Bullet");
                 break;
 
             default:

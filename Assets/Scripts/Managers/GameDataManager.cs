@@ -57,11 +57,13 @@ public class Bullet_Data
     private const float size = 1f;
     private const bool ricochet = false;
     private const bool visible = true;
+    private const bool traverse = false;
 
     public float uSpeed = 50f;
     public float uSize = 1f;
     public bool uRicochet = false;
     public bool uVisible = true;
+    public bool uTraverse = false;
 
     public void Reset()
     {
@@ -69,6 +71,7 @@ public class Bullet_Data
         uSize = size;
         uRicochet = ricochet;
         uVisible = visible;
+        uTraverse = traverse;
     }
 }
 

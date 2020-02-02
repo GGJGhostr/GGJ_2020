@@ -18,6 +18,7 @@ public class CommandDataBase : MonoBehaviour
 
         AddTweakableValueInEntity("bullet", "visible", typeof(bool), true);
         AddTweakableValueInEntity("bullet", "speed", typeof(float), true);
+        AddTweakableValueInEntity("bullet", "traverse", typeof(float), true);
 
         //AddTweakableValueInEntity("gravity", "reverse", typeof(bool), true);
         PrintCommandMap();
