@@ -229,7 +229,7 @@ MonoBehaviour:
   player_idx: 1
   fallMultiplier: 2.2
   riseMultiplier: 1.5
-  groundSpeed: 10
+  groundSpeed: 13
   airDrift: 0.8
   airSpeed: 10
   facingRight: 1
